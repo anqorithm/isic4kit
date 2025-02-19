@@ -4,7 +4,6 @@
   <img src="assets/logo.svg" width="400" alt="ISIC4Kit Logo">
 </p>
 
-
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Python](https://img.shields.io/badge/Python-≥3.8,<4.0-blue.svg)
 ![PyPI](https://badge.fury.io/py/isic4kit.svg)
@@ -26,8 +25,66 @@ A Python SDK Library for working with the International Standard Industrial Clas
 - Tested and maintained
 - Lightweight and fast
 
-## Installation
+## Data Structure
 
+### ISIC Hierarchy
+
+ISIC follows a hierarchical structure:
+
+```mermaid
+flowchart TD
+    Section[Section] --> Division[Division]
+    Division --> Group[Group]
+    Group --> Class[Class]
+    
+    Section --> |contains| SectionDesc[Description]
+    Division --> |contains| DivisionDesc[Description]
+    Group --> |contains| GroupDesc[Description]
+    Class --> |contains| ClassDesc[Description]
+```
+
+Each level contains:
+- **Section**: Highest level (A-U), e.g., "A" for Agriculture
+- **Division**: Two-digit code (01-99)
+- **Group**: Three-digit code (011-999)
+- **Class**: Four-digit code (0111-9999)
+
+### Data Format
+
+The ISIC data is organized in a hierarchical structure:
+
+```python
+sections = [
+    {
+        "section": "A",
+        "description": "Agriculture, forestry and fishing",
+        "divisions": [
+            {
+                "division": "01",
+                "description": "Crop and animal production",
+                "groups": [
+                    {
+                        "group": "011",
+                        "description": "Growing of non-perennial crops",
+                        "classes": [
+                            {
+                                "class": "0111",
+                                "description": "Growing of cereals"
+                            },
+                            # ...
+                        ]
+                    },
+                    # ...
+                ]
+            },
+            # ...
+        ]
+    },
+    # ...
+]
+```
+
+## Installation
 
 ### Poetry (recommended)
 ```bash
@@ -276,90 +333,6 @@ Output:
 - Arabic (ar)
 - More languages coming soon...
 
-## Data Structure
-
-### ISIC Hierarchy
-
-ISIC follows a hierarchical structure:
-
-```mermaid
-flowchart TD
-    Section[Section] --> Division[Division]
-    Division --> Group[Group]
-    Group --> Class[Class]
-    
-    Section --> |contains| SectionDesc[Description]
-    Division --> |contains| DivisionDesc[Description]
-    Group --> |contains| GroupDesc[Description]
-    Class --> |contains| ClassDesc[Description]
-```
-
-Each level contains:
-- **Section**: Highest level (A-U), e.g., "A" for Agriculture
-- **Division**: Two-digit code (01-99)
-- **Group**: Three-digit code (011-999)
-- **Class**: Four-digit code (0111-9999)
-
-### Data Format
-
-The ISIC data is organized in a hierarchical structure:
-
-```python
-sections = [
-    {
-        "section": "A",
-        "description": "Agriculture, forestry and fishing",
-        "divisions": [
-            {
-                "division": "01",
-                "description": "Crop and animal production",
-                "groups": [
-                    {
-                        "group": "011",
-                        "description": "Growing of non-perennial crops",
-                        "classes": [
-                            {
-                                "class": "0111",
-                                "description": "Growing of cereals"
-                            },
-                            # ...
-                        ]
-                    },
-                    # ...
-                ]
-            },
-            # ...
-        ]
-    },
-    # ...
-]
-```
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## Contributors
-
-- [Abdullah Alqahtani](https://github.com/anqorithm)
-
-
-## References
-
-1. United Nations Statistics Division. (2008). International Standard Industrial Classification of All Economic Activities (ISIC), Revision 4. [English Version](https://unstats.un.org/unsd/classifications/Econ/Download/In%20Text/ISIC_Rev_4_publication_English.pdf)
-
-2. United Nations Statistics Division. (2008). التصنيف الصناعي الدولي الموحد لجميع الأنشطة الاقتصادية، التنقيح 4. [Arabic Version](https://unstats.un.org/unsd/classifications/Econ/Download/In%20Text/ISIC_Rev_4_publication_Arabic.pdf)
-
-3. Ministry of Commerce - Saudi Arabia. (2023). ISIC4 Guide. [Source](https://mc.gov.sa/ar/guides/ISIC4/Pages/default.aspx)
-
-4. Saudi Food and Drug Authority. (2023). Economic Activities Classification. [Source](https://www.sfda.gov.sa/en/economic-activities)
-
-5. General Authority for Statistics - Saudi Arabia. (2023). ISIC4 Classification. [Source](https://www.stats.gov.sa/en/isic4)
-
-## License
-
-[MIT License](LICENSE)
-
 ## Development Setup
 
 ```bash
@@ -389,24 +362,26 @@ poetry run pytest
 poetry run pytest --cov=isic4kit tests/
 ```
 
-## Bug Reports & Feature Requests
+## Contributing
 
-Please use the [GitHub Issues](https://github.com/anqorithm/isic4kit/issues) page to report bugs or submit feature requests.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-## Code of Conduct
+## Contributors
 
-This project follows the [Contributor Covenant](https://www.contributor-covenant.org/) Code of Conduct. By participating in this project, you agree to abide by its terms.
+- [Abdullah Alqahtani](https://github.com/anqorithm)
 
-## Citation
+## References
 
-If you use ISIC4Kit in your research, please cite it as follows:
+1. United Nations Statistics Division. (2008). International Standard Industrial Classification of All Economic Activities (ISIC), Revision 4. [English Version](https://unstats.un.org/unsd/classifications/Econ/Download/In%20Text/ISIC_Rev_4_publication_English.pdf)
 
-```bibtex
-@software{isic4kit2024,
-  author = {Abdullah Alqahtani},
-  title = {ISIC4Kit: A Python SDK for ISIC Revision 4},
-  year = {2024},
-  publisher = {GitHub},
-  url = {https://github.com/anqorithm/isic4kit}
-}
-```
+2. United Nations Statistics Division. (2008). التصنيف الصناعي الدولي الموحد لجميع الأنشطة الاقتصادية، التنقيح 4. [Arabic Version](https://unstats.un.org/unsd/classifications/Econ/Download/In%20Text/ISIC_Rev_4_publication_Arabic.pdf)
+
+3. Ministry of Commerce - Saudi Arabia. (2023). ISIC4 Guide. [Source](https://mc.gov.sa/ar/guides/ISIC4/Pages/default.aspx)
+
+4. Saudi Food and Drug Authority. (2023). Economic Activities Classification. [Source](https://www.sfda.gov.sa/en/economic-activities)
+
+5. General Authority for Statistics - Saudi Arabia. (2023). ISIC4 Classification. [Source](https://www.stats.gov.sa/en/isic4)
+
+## License
+
+[MIT License](LICENSE)
