@@ -194,6 +194,17 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 - [Abdullah Alqahtani](https://github.com/anqorithm)
 
 
+## References
+
+1. United Nations Statistics Division. (2008). International Standard Industrial Classification of All Economic Activities (ISIC), Revision 4. [English Version](https://unstats.un.org/unsd/classifications/Econ/Download/In%20Text/ISIC_Rev_4_publication_English.pdf)
+
+2. United Nations Statistics Division. (2008). التصنيف الصناعي الدولي الموحد لجميع الأنشطة الاقتصادية، التنقيح 4. [Arabic Version](https://unstats.un.org/unsd/classifications/Econ/Download/In%20Text/ISIC_Rev_4_publication_Arabic.pdf)
+
+3. Ministry of Commerce - Saudi Arabia. (2023). ISIC4 Guide. [Source](https://mc.gov.sa/ar/guides/ISIC4/Pages/default.aspx)
+
+4. Saudi Food and Drug Authority. (2023). Economic Activities Classification. [Source](https://www.sfda.gov.sa/en/economic-activities)
+
+5. General Authority for Statistics - Saudi Arabia. (2023). ISIC4 Classification. [Source](https://www.stats.gov.sa/en/isic4)
 
 ## License
 
