@@ -365,9 +365,21 @@ Run the test suite using pytest:
 # Run all tests
 poetry run pytest
 
-# Run tests with coverage report
+```
+![Coverage](assets/3.png)
+
+
+## Coverage
+
+The test suite includes unit tests for all classes and methods. The coverage report can be generated using the following command:
+
+```bash
 poetry run pytest --cov=isic4kit tests/
 ```
+
+![Coverage](assets/1.png)
+
+![Coverage](assets/2.png)
 
 ## Contributing
 

@@ -41,4 +41,8 @@ htmlcov/
 .tox/
 
 # Documentation
-docs/_build/ 
+docs/_build/
+
+# Coverage reports
+coverage_html/
+.coverage 

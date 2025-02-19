@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "isic4kit"
-version = "0.0.1"
+version = "0.0.2"
 description = "A Python SDK Library for working with the International Standard Industrial Classification of All Economic Activities (ISIC), Revision 4."
 authors = ["Abdullah Alqahtani <anqorithm@protonmail.com>"]
 readme = "README.md"
@@ -10,6 +10,34 @@ python = ">=3.8,<4.0"
 pydantic = "^2.10.6"
 pytest = "^8.3.4"
 
+[tool.poetry.group.dev.dependencies]
+pytest-cov = "^4.1.0"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.coverage.run]
+branch = true
+source = ["isic4kit"]
+omit = [
+    "tests/*",
+    "**/__init__.py",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "if self.debug:",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+    "pass",
+    "raise ImportError",
+]
+ignore_errors = true
+fail_under = 60
+show_missing = true
+
+[tool.coverage.html]
+directory = "coverage_html"
