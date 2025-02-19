@@ -84,6 +84,13 @@ sections = [
 ]
 ```
 
+## Demo
+
+The following is a demo of the SDK library in action.
+
+[![asciicast](https://asciinema.org/a/EIWus3SvaHt71GnjSN0g4KH0u.svg)](https://asciinema.org/a/EIWus3SvaHt71GnjSN0g4KH0u)
+
+
 ## Installation
 
 ### Poetry (recommended)
