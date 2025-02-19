@@ -6,7 +6,6 @@
 
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Python](https://img.shields.io/badge/Python-≥3.8,<4.0-blue.svg)
-![PyPI](https://badge.fury.io/py/isic4kit.svg)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/isic4kit)
 ![Commits](https://img.shields.io/github/last-commit/anqorithm/isic4kit)
 ![Contributors](https://img.shields.io/github/contributors/anqorithm/isic4kit)
@@ -97,7 +96,6 @@ sections = [
 The following is a demo of the SDK library in action.
 
 [![asciicast](https://asciinema.org/a/EIWus3SvaHt71GnjSN0g4KH0u.svg)](https://asciinema.org/a/EIWus3SvaHt71GnjSN0g4KH0u)
-
 
 ## Installation
 
