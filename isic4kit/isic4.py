@@ -1,8 +1,6 @@
-from typing import List
 from .base import BaseISIC4
 from .search import ISICSearchMixin
 from .loader import ISICLoaderMixin
-
 
 class ISIC4Classifier(BaseISIC4, ISICSearchMixin, ISICLoaderMixin):
     """Main class for working with ISIC4 classification data."""
@@ -17,7 +15,7 @@ class ISIC4Classifier(BaseISIC4, ISICSearchMixin, ISICLoaderMixin):
             ValueError: If the specified language is not supported.
         """
         self.language = language
-        self.sections: List = []
+        self.sections = []
         try:
             self._load_data()
         except ValueError as e:

@@ -8,6 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 pydantic = "^2.10.6"
+pytest = "^8.3.4"
 
 [build-system]
 requires = ["poetry-core"]
