@@ -27,28 +27,6 @@ A Python SDK Library for working with the International Standard Industrial Clas
 - Tested and maintained
 - Lightweight and fast
 
-## Structure
-
-ISIC follows a hierarchical structure:
-
-```mermaid
-flowchart TD
-    Section[Section] --> Division[Division]
-    Division --> Group[Group]
-    Group --> Class[Class]
-    
-    Section --> |contains| SectionDesc[Description]
-    Division --> |contains| DivisionDesc[Description]
-    Group --> |contains| GroupDesc[Description]
-    Class --> |contains| ClassDesc[Description]
-```
-
-Each level contains:
-- **Section**: Highest level (A-U), e.g., "A" for Agriculture
-- **Division**: Two-digit code (01-99)
-- **Group**: Three-digit code (011-999)
-- **Class**: Four-digit code (0111-9999)
-
 ## Installation
 
 
@@ -300,6 +278,30 @@ Output:
 - More languages coming soon...
 
 ## Data Structure
+
+### ISIC Hierarchy
+
+ISIC follows a hierarchical structure:
+
+```mermaid
+flowchart TD
+    Section[Section] --> Division[Division]
+    Division --> Group[Group]
+    Group --> Class[Class]
+    
+    Section --> |contains| SectionDesc[Description]
+    Division --> |contains| DivisionDesc[Description]
+    Group --> |contains| GroupDesc[Description]
+    Class --> |contains| ClassDesc[Description]
+```
+
+Each level contains:
+- **Section**: Highest level (A-U), e.g., "A" for Agriculture
+- **Division**: Two-digit code (01-99)
+- **Group**: Three-digit code (011-999)
+- **Class**: Four-digit code (0111-9999)
+
+### Data Format
 
 The ISIC data is organized in a hierarchical structure:
 
