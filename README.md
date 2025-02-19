@@ -31,7 +31,6 @@
 ![Open PRs](https://img.shields.io/github/issues-pr-raw/anqorithm/isic4kit)
 ![Closed PRs](https://img.shields.io/github/issues-pr-closed-raw/anqorithm/isic4kit)
 ![Discussions](https://img.shields.io/github/discussions/anqorithm/isic4kit)
-![Package Status](https://img.shields.io/pypi/status/isic4kit)
 
 A Python SDK Library for working with the International Standard Industrial Classification of All Economic Activities (ISIC), Revision 4.
 
