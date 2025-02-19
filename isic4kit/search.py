@@ -2,7 +2,45 @@ from .models import ISICHierarchy, ISICSearchResult, ISICSearchResults
 
 
 class ISICSearchMixin:
+    """Mixin class providing search functionality for ISIC classifications.
+
+    This mixin provides methods to search through ISIC (International Standard Industrial
+    Classification) hierarchy levels including sections, divisions, groups, and classes.
+    The search can be performed on both classification codes and descriptions.
+
+    The mixin assumes the implementing class has a `sections` attribute containing
+    the ISIC classification hierarchy.
+    """
+
     def search(self, query: str) -> ISICSearchResults:
+        """Search ISIC classifications for matching codes or descriptions.
+
+        Performs a case-insensitive search across all levels of the ISIC hierarchy
+        (sections, divisions, groups, and classes) looking for matches in either
+        the code or description fields.
+
+        The search is performed by checking if the query string is contained within
+        either the code or description of any classification item. The search is
+        case-insensitive and ignores leading/trailing whitespace.
+
+        Args:
+            query: A string to search for within ISIC codes and descriptions.
+                  Can be a partial or complete code or description.
+
+        Returns:
+            ISICSearchResults: A container of search results. Each result includes:
+                - type: The hierarchy level ('section', 'division', 'group', or 'class')
+                - code: The classification code
+                - description: The classification description
+                - hierarchy: An ISICHierarchy object containing the full path information
+                - path: A string representation of the hierarchical path, joined by '/'
+
+        Example:
+            >>> isic = ISICClassification()
+            >>> results = isic.search("agriculture")
+            >>> print(results.results[0].code)  # First matching result's code
+            'A'
+        """
         query = query.lower().strip()
         results = []
 

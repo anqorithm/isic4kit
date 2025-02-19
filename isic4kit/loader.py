@@ -4,13 +4,47 @@ from .models import ISICSection, ISICDivision, ISICGroup, ISICClass
 
 
 class ISICLoaderMixin:
-    """Mixin class providing data loading functionality for ISIC4."""
+    """Mixin class providing data loading functionality for ISIC4.
+
+    This mixin provides methods to load and parse ISIC4 classification data
+    from JSON files in different languages. It handles the loading and parsing
+    of hierarchical ISIC4 classification data.
+
+    Attributes:
+        sections (list[ISICSection]): List of ISIC sections containing the complete
+            hierarchical structure of classifications.
+        language (str): The language code for loading classification data.
+
+    Example:
+        >>> class ISICLoader(ISICLoaderMixin):
+        ...     def __init__(self, language='en'):
+        ...         self.language = language
+        ...         self._load_data()
+        >>> loader = ISICLoader()
+        >>> sections = loader.sections
+    """
 
     def _load_data(self):
-        """Load ISIC4 data from JSON file.
+        """Load and parse ISIC4 classification data from JSON file.
+
+        This method reads the JSON file corresponding to the instance's language
+        setting and constructs a hierarchical structure of ISIC4 classifications
+        (sections -> divisions -> groups -> classes). The data is stored in the
+        sections attribute of the instance.
+
+        The JSON file should be located in the 'data' directory with the filename
+        format '{language}.json'.
 
         Raises:
-            ValueError: If the specified language is not supported (JSON file not found).
+            ValueError: If the specified language is not supported
+                (no corresponding JSON file exists in the data directory).
+                The error message includes a list of available languages.
+
+        Note:
+            The loaded data structure follows the hierarchy:
+            - Sections contain Divisions
+            - Divisions contain Groups
+            - Groups contain Classes
         """
         data_path = Path(__file__).parent / "data" / f"{self.language}.json"
         try:
