@@ -4,7 +4,6 @@
   <img src="https://github.com/anqorithm/isic4kit/raw/main/assets/logo.svg" width="400" alt="ISIC4Kit Logo">
 </p>
 
-[![Downloads](https://img.shields.io/pypi/dm/isic4kit)](https://pypi.org/project/isic4kit/)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Python](https://img.shields.io/badge/Python-≥3.8,<4.0-blue.svg)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/isic4kit)
