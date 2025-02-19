@@ -5,6 +5,12 @@ isic_en = ISIC4Classifier(language="en")
 
 # Example 1: Get section (Agriculture)
 section_en = isic_en.get_section("a")
+for section in section_en.divisions:
+    print(section.code, section.description)
+    for division in section.groups:
+        print(division.code, division.description)
+        for group in division.classes:
+            print(group.code, group.description)
 section_en.print_tree()
 
 # Example 2: Get division (Crop and animal production)

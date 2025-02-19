@@ -6,10 +6,26 @@
 
 
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Python](https://img.shields.io/badge/Python-3.12-blue.svg)
+![Python](https://img.shields.io/badge/Python-≥3.8,<4.0-blue.svg)
+![PyPI](https://badge.fury.io/py/isic4kit.svg)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/isic4kit)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/isic4kit)
+![PyPI - License](https://img.shields.io/pypi/l/isic4kit)
+![PyPI - Status](https://img.shields.io/pypi/status/isic4kit)
+![Commits](https://img.shields.io/github/last-commit/anqorithm/isic4kit)
+![Contributors](https://img.shields.io/github/contributors/anqorithm/isic4kit)
 
+A Python SDK Library for working with the International Standard Industrial Classification of All Economic Activities (ISIC), Revision 4.
 
-ISIC4Kit is a Python library for working with the International Standard Industrial Classification of All Economic Activities (ISIC), Revision 4. It provides an easy way to navigate and search through the ISIC hierarchical structure in multiple languages.
+## Features
+
+- Search and navigate through the ISIC hierarchical structure
+- Support for multiple languages (English, Arabic, and more coming soon)
+- Pydantic-based
+- Easy to use
+- Well-documented
+- Tested and maintained
+- Lightweight and fast
 
 ## Structure
 
@@ -35,9 +51,22 @@ Each level contains:
 
 ## Installation
 
+
+### Poetry (recommended)
+```bash
+poetry add isic4kit
+```
+
+### pip
 ```bash
 pip install isic4kit
 ```
+
+## Dependencies
+
+- Python >=3.8, <4.0
+- pydantic ^2.10.6
+- pytest ^8.3.4
 
 ## Usage
 
@@ -47,61 +76,41 @@ pip install isic4kit
 from isic4kit import ISIC4Classifier
 
 # Initialize classifier (English)
-isic = ISIC4Classifier(language="en")
+isic_en = ISIC4Classifier(language="en")
 
-# Get a section
-section = isic.get_section("a")
+# Example 1: Get section (Agriculture)
+section = isic_en.get_section("a")
+# Access divisions directly
+for division in section.divisions:
+    print(division.code, division.description)
+    # Access groups
+    for group in division.groups:
+        print(group.code, group.description)
+        # Access classes
+        for class_ in group.classes:
+            print(class_.code, class_.description)
+# Or use the tree visualization
 section.print_tree()
-```
 
-Output:
-```
-└── a: Agriculture, forestry and fishing
-    ├── 01: Crop and animal production, hunting and related service activities
-    │   ├── 011: Growing of non-perennial crops
-    │   │   ├── 0111: Growing of cereals (except rice), leguminous crops and oil seeds
-    │   │   ├── 0112: Growing of rice
-    │   │   └── ...
-    │   └── ...
-    └── ...
-```
-
-```python
-# Get a specific division
-division = isic.get_division("01")
+# Example 2: Get division (Crop and animal production)
+division = isic_en.get_division("01")
 division.print_tree()
-```
 
-Output:
-```
-└── 01: Crop and animal production, hunting and related service activities
-    ├── 011: Growing of non-perennial crops
-    │   ├── 0111: Growing of cereals (except rice), leguminous crops and oil seeds
-    │   ├── 0112: Growing of rice
-    │   └── ...
-    └── ...
+# Example 3: Get group (Growing of non-perennial crops)
+group = isic_en.get_group("011")
+group.print_tree()
+
+# Example 4: Get class (Growing of cereals)
+class_ = isic_en.get_class("0111")
+class_.print_tree()
 ```
 
 ### Search Functionality
 
 ```python
-# Search for activities
-results = isic.search("mining")
+# Search for activities containing "mining"
+results = isic_en.search("mining")
 results.print_tree()
-```
-
-Output:
-```
-├── 05: Mining of coal and lignite
-│   ├── 051: Mining of hard coal
-│   │   └── 0510: Mining of hard coal (anthracite)
-│   └── 052: Mining of lignite
-│       └── 0520: Mining of lignite
-├── 07: Mining of metal ores
-│   ├── 071: Mining of iron ores
-│   │   └── 0710: Mining of iron ores
-│   └── ...
-└── ...
 ```
 
 ### Multi-language Support
@@ -109,45 +118,28 @@ Output:
 The classifier supports multiple languages. Here's an example in Arabic:
 
 ```python
-# Initialize classifier (Arabic)
+# Initialize with Arabic language
 isic_ar = ISIC4Classifier(language="ar")
 
-# Get a section in Arabic
-section = isic_ar.get_section("a")
-section.print_tree()
-```
+# Example 1: Get section (الزراعة)
+section_ar = isic_ar.get_section("a")
+section_ar.print_tree()
 
-Output:
-```
-└── أ: الزراعة والحراجة وصيد الأسماك
-    ├── 01: أنشطة زراعة المحاصيل والإنتاج الحيواني والصيد والخدمات المتصلة
-    │   ├── 011: زراعة المحاصيل غير الدائمة
-    │   │   ├── 0111: زراعة الحبوب (باستثناء الأرز) والمحاصيل البقولية والبذور الزيتية
-    │   │   ├── 0112: زراعة الأرز
-    │   │   └── ...
-    │   └── ...
-    └── ...
-```
+# Example 2: Get division (زراعة المحاصيل والإنتاج الحيواني)
+division_ar = isic_ar.get_division("01")
+division_ar.print_tree()
 
-```python
-# Search in Arabic
-results = isic_ar.search("تعدين")
-results.print_tree()
-```
+# Example 3: Get group (زراعة المحاصيل غير الدائمة)
+group_ar = isic_ar.get_group("011")
+group_ar.print_tree()
 
-Output:
-```
-├── 05: تعدين الفحم والليغنيت
-    ├── 051: تعدين الفحم القاسي
-    │   └── 0510: تعدين الفحم القاسي (الأنفراثيت)
-    ├── 052: تعدين الليغنيت
-    │   └── 0520: تعدين الليغنيت
-    └── ...
-├── 07: تعدين ركازات الفلزات
-    ├── 071: تعدين ركازات الحديد
-    │   └── 0710: تعدين ركازات الحديد
-    └── ...
-└── ...
+# Example 4: Get class (زراعة الحبوب)
+class_ar = isic_ar.get_class("0111")
+class_ar.print_tree()
+
+# Example 5: Search in Arabic
+search_ar = isic_ar.search("تعدين")
+search_ar.print_tree()
 ```
 
 ## Supported Languages

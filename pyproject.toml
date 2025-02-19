@@ -1,12 +1,12 @@
 [tool.poetry]
 name = "isic4kit"
-version = "0.1.0"
-description = "Python SDK for ISIC Rev.4 classification data in Arabic and English"
+version = "0.0.1"
+description = "A Python SDK Library for working with the International Standard Industrial Classification of All Economic Activities (ISIC), Revision 4."
 authors = ["Abdullah Alqahtani <anqorithm@protonmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = ">=3.8,<4.0"
 pydantic = "^2.10.6"
 pytest = "^8.3.4"
 

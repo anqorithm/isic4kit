@@ -1,44 +1,40 @@
-from dataclasses import dataclass
 from pydantic import BaseModel
+from typing import List
 from .tree import print_tree
 
 
-@dataclass
-class ISICClass:
+class ISICClass(BaseModel):
     code: str
     description: str
 
-    def print_tree(self, indent=""):
+    def print_tree(self, indent: str = "") -> None:
         print_tree(self, indent)
 
 
-@dataclass
-class ISICGroup:
+class ISICGroup(BaseModel):
     code: str
     description: str
-    classes: list
+    classes: List[ISICClass]
 
-    def print_tree(self, indent=""):
+    def print_tree(self, indent: str = "") -> None:
         print_tree(self, indent)
 
 
-@dataclass
-class ISICDivision:
+class ISICDivision(BaseModel):
     code: str
     description: str
-    groups: list
+    groups: List[ISICGroup]
 
-    def print_tree(self, indent=""):
+    def print_tree(self, indent: str = "") -> None:
         print_tree(self, indent)
 
 
-@dataclass
-class ISICSection:
+class ISICSection(BaseModel):
     code: str
     description: str
-    divisions: list
+    divisions: List[ISICDivision]
 
-    def print_tree(self, indent=""):
+    def print_tree(self, indent: str = "") -> None:
         print_tree(self, indent)
 
 
