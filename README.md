@@ -1,7 +1,7 @@
 # ISIC4Kit
 
 <p align="center">
-  <img src="assets/logo.svg" width="400" alt="ISIC4Kit Logo">
+  <img src="https://github.com/anqorithm/isic4kit/raw/main/assets/logo.svg" width="400" alt="ISIC4Kit Logo">
 </p>
 
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
@@ -366,7 +366,7 @@ Run the test suite using pytest:
 poetry run pytest
 
 ```
-![Coverage](assets/3.png)
+![Coverage](https://github.com/anqorithm/isic4kit/raw/main/assets/3.png)
 
 
 ## Coverage
@@ -377,9 +377,9 @@ The test suite includes unit tests for all classes and methods. The coverage rep
 poetry run pytest --cov=isic4kit tests/
 ```
 
-![Coverage](assets/1.png)
+![Coverage](https://github.com/anqorithm/isic4kit/raw/main/assets/1.png)
 
-![Coverage](assets/2.png)
+![Coverage](https://github.com/anqorithm/isic4kit/raw/main/assets/2.png)
 
 ## Contributing
 
