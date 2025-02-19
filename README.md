@@ -7,9 +7,7 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Python](https://img.shields.io/badge/Python-≥3.8,<4.0-blue.svg)
 ![PyPI](https://badge.fury.io/py/isic4kit.svg)
-![PyPI - Downloads](https://img.shields.io/pypi/dm/isic4kit)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/isic4kit)
-![PyPI - Status](https://img.shields.io/pypi/status/isic4kit)
 ![Commits](https://img.shields.io/github/last-commit/anqorithm/isic4kit)
 ![Contributors](https://img.shields.io/github/contributors/anqorithm/isic4kit)
 ![Coverage](https://img.shields.io/badge/Coverage-64%25-yellow.svg)
@@ -21,7 +19,6 @@
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/anqorithm/isic4kit)
 ![GitHub stars](https://img.shields.io/github/stars/anqorithm/isic4kit)
 ![GitHub forks](https://img.shields.io/github/forks/anqorithm/isic4kit)
-![GitHub release](https://img.shields.io/github/v/release/anqorithm/isic4kit)
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)
 
 A Python SDK Library for working with the International Standard Industrial Classification of All Economic Activities (ISIC), Revision 4.
