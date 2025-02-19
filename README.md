@@ -8,7 +8,6 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Python](https://img.shields.io/badge/Python-≥3.8,<4.0-blue.svg)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/isic4kit)
-![PyPI](https://badge.fury.io/py/isic4kit.svg)
 [![PyPI version](https://img.shields.io/pypi/v/isic4kit)](https://pypi.org/project/isic4kit/)
 ![Commits](https://img.shields.io/github/last-commit/anqorithm/isic4kit)
 ![Contributors](https://img.shields.io/github/contributors/anqorithm/isic4kit)
