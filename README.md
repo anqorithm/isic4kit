@@ -4,10 +4,12 @@
   <img src="https://github.com/anqorithm/isic4kit/raw/main/assets/logo.svg" width="400" alt="ISIC4Kit Logo">
 </p>
 
+[![Downloads](https://img.shields.io/pypi/dm/isic4kit)](https://pypi.org/project/isic4kit/)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Python](https://img.shields.io/badge/Python-≥3.8,<4.0-blue.svg)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/isic4kit)
 ![PyPI](https://badge.fury.io/py/isic4kit.svg)
+[![PyPI version](https://img.shields.io/pypi/v/isic4kit)](https://pypi.org/project/isic4kit/)
 ![Commits](https://img.shields.io/github/last-commit/anqorithm/isic4kit)
 ![Contributors](https://img.shields.io/github/contributors/anqorithm/isic4kit)
 ![Coverage](https://img.shields.io/badge/Coverage-64%25-yellow.svg)
