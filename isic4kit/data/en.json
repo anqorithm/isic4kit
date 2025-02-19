@@ -1,0 +1,3762 @@
+{
+    "sections": [
+        {
+            "section": "a",
+            "description": "Agriculture, forestry and fishing",
+            "divisions": [
+                {
+                    "division": "01",
+                    "description": "Crop and animal production, hunting and related service activities",
+                    "groups": [
+                        {
+                            "group": "011",
+                            "description": "Growing of non-perennial crops",
+                            "classes": [
+                                {
+                                    "class": "0111",
+                                    "description": "Growing of cereals (except rice), leguminous crops and oil seeds"
+                                },
+                                {
+                                    "class": "0112",
+                                    "description": "Growing of rice"
+                                },
+                                {
+                                    "class": "0113",
+                                    "description": "Growing of vegetables and melons, roots and tubers"
+                                },
+                                {
+                                    "class": "0114",
+                                    "description": "Growing of sugar cane"
+                                },
+                                {
+                                    "class": "0115",
+                                    "description": "Growing of tobacco"
+                                },
+                                {
+                                    "class": "0116",
+                                    "description": "Growing of fibre crops"
+                                },
+                                {
+                                    "class": "0119",
+                                    "description": "Growing of other non-perennial crops"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "012",
+                            "description": "Growing of perennial crops",
+                            "classes": [
+                                {
+                                    "class": "0121",
+                                    "description": "Growing of grapes"
+                                },
+                                {
+                                    "class": "0122",
+                                    "description": "Growing of tropical and subtropical fruits"
+                                },
+                                {
+                                    "class": "0123",
+                                    "description": "Growing of citrus fruits"
+                                },
+                                {
+                                    "class": "0124",
+                                    "description": "Growing of pome fruits and stone fruits"
+                                },
+                                {
+                                    "class": "0125",
+                                    "description": "Growing of other tree and bush fruits and nuts"
+                                },
+                                {
+                                    "class": "0126",
+                                    "description": "Growing of oleaginous fruits"
+                                },
+                                {
+                                    "class": "0127",
+                                    "description": "Growing of beverage crops"
+                                },
+                                {
+                                    "class": "0128",
+                                    "description": "Growing of spices, aromatic, drug and pharmaceutical crops"
+                                },
+                                {
+                                    "class": "0129",
+                                    "description": "Growing of other perennial crops"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "013",
+                            "description": "Plant propagation",
+                            "classes": [
+                                {
+                                    "class": "0130",
+                                    "description": "Plant propagation"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "014",
+                            "description": "Animal production",
+                            "classes": [
+                                {
+                                    "class": "0141",
+                                    "description": "Raising of cattle and buffaloes"
+                                },
+                                {
+                                    "class": "0142",
+                                    "description": "Raising of horses and other equines"
+                                },
+                                {
+                                    "class": "0143",
+                                    "description": "Raising of camels and camelids"
+                                },
+                                {
+                                    "class": "0144",
+                                    "description": "Raising of sheep and goats"
+                                },
+                                {
+                                    "class": "0145",
+                                    "description": "Raising of swine/pigs"
+                                },
+                                {
+                                    "class": "0146",
+                                    "description": "Raising of poultry"
+                                },
+                                {
+                                    "class": "0149",
+                                    "description": "Raising of other animals"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "015",
+                            "description": "Mixed farming",
+                            "classes": [
+                                {
+                                    "class": "0150",
+                                    "description": "Mixed farming"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "016",
+                            "description": "Support activities to agriculture and post-harvest crop activities",
+                            "classes": [
+                                {
+                                    "class": "0161",
+                                    "description": "Support activities for crop production"
+                                },
+                                {
+                                    "class": "0162",
+                                    "description": "Support activities for animal production"
+                                },
+                                {
+                                    "class": "0163",
+                                    "description": "Post-harvest crop activities"
+                                },
+                                {
+                                    "class": "0164",
+                                    "description": "Seed processing for propagation"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "017",
+                            "description": "Hunting, trapping and related service activities",
+                            "classes": [
+                                {
+                                    "class": "0170",
+                                    "description": "Hunting, trapping and related service activities"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "02",
+                    "description": "Forestry and logging",
+                    "groups": [
+                        {
+                            "group": "021",
+                            "description": "Silviculture and other forestry activities",
+                            "classes": [
+                                {
+                                    "class": "0210",
+                                    "description": "Silviculture and other forestry activities"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "022",
+                            "description": "Logging",
+                            "classes": [
+                                {
+                                    "class": "0220",
+                                    "description": "Logging"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "023",
+                            "description": "Gathering of non-wood forest products",
+                            "classes": [
+                                {
+                                    "class": "0230",
+                                    "description": "Gathering of non-wood forest products"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "024",
+                            "description": "Support services to forestry",
+                            "classes": [
+                                {
+                                    "class": "0240",
+                                    "description": "Support services to forestry"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "03",
+                    "description": "Fishing and aquaculture",
+                    "groups": [
+                        {
+                            "group": "031",
+                            "description": "Fishing",
+                            "classes": [
+                                {
+                                    "class": "0311",
+                                    "description": "Marine fishing"
+                                },
+                                {
+                                    "class": "0312",
+                                    "description": "Freshwater fishing"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "032",
+                            "description": "Aquaculture",
+                            "classes": [
+                                {
+                                    "class": "0321",
+                                    "description": "Marine aquaculture"
+                                },
+                                {
+                                    "class": "0322",
+                                    "description": "Freshwater aquaculture"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "b",
+            "description": "Mining and quarrying",
+            "divisions": [
+                {
+                    "division": "05",
+                    "description": "Mining of coal and lignite",
+                    "groups": [
+                        {
+                            "group": "051",
+                            "description": "Mining of hard coal",
+                            "classes": [
+                                {
+                                    "class": "0510",
+                                    "description": "Mining of hard coal (anthracite)"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "052",
+                            "description": "Mining of lignite",
+                            "classes": [
+                                {
+                                    "class": "0520",
+                                    "description": "Mining of lignite"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "06",
+                    "description": "Extraction of crude petroleum and natural gas",
+                    "groups": [
+                        {
+                            "group": "061",
+                            "description": "Extraction of crude petroleum",
+                            "classes": [
+                                {
+                                    "class": "0610",
+                                    "description": "Extraction of crude petroleum"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "062",
+                            "description": "Extraction of natural gas",
+                            "classes": [
+                                {
+                                    "class": "0620",
+                                    "description": "Extraction of natural gas"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "07",
+                    "description": "Mining of metal ores",
+                    "groups": [
+                        {
+                            "group": "071",
+                            "description": "Mining of iron ores",
+                            "classes": [
+                                {
+                                    "class": "0710",
+                                    "description": "Mining of iron ores"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "072",
+                            "description": "Mining of non-ferrous metal ores",
+                            "classes": [
+                                {
+                                    "class": "0721",
+                                    "description": "Mining of uranium and thorium ores"
+                                },
+                                {
+                                    "class": "0729",
+                                    "description": "Mining of other non-ferrous metal ores"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "08",
+                    "description": "Other mining and quarrying",
+                    "groups": [
+                        {
+                            "group": "081",
+                            "description": "Quarrying of stone, sand and clay",
+                            "classes": [
+                                {
+                                    "class": "0810",
+                                    "description": "Quarrying of stone, sand and clay"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "089",
+                            "description": "Mining and quarrying n.e.c.",
+                            "classes": [
+                                {
+                                    "class": "0891",
+                                    "description": "Mining of chemical and fertilizer minerals"
+                                },
+                                {
+                                    "class": "0892",
+                                    "description": "Extraction of peat"
+                                },
+                                {
+                                    "class": "0893",
+                                    "description": "Extraction of salt"
+                                },
+                                {
+                                    "class": "0899",
+                                    "description": "Other mining and quarrying n.e.c."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "09",
+                    "description": "Mining support service activities",
+                    "groups": [
+                        {
+                            "group": "091",
+                            "description": "Support activities for petroleum and natural gas extraction",
+                            "classes": [
+                                {
+                                    "class": "0910",
+                                    "description": "Support activities for petroleum and natural gas extraction"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "099",
+                            "description": "Support activities for other mining and quarrying",
+                            "classes": [
+                                {
+                                    "class": "0990",
+                                    "description": "Support activities for other mining and quarrying"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "C",
+            "description": "Manufacturing",
+            "divisions": [
+                {
+                    "division": "10",
+                    "description": "Manufacture of food products",
+                    "groups": [
+                        {
+                            "group": "101",
+                            "description": "Processing and preserving of meat",
+                            "classes": [
+                                {
+                                    "class": "1010",
+                                    "description": "Processing and preserving of meat"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "102",
+                            "description": "Processing and preserving of fish, crustaceans and molluscs",
+                            "classes": [
+                                {
+                                    "class": "1020",
+                                    "description": "Processing and preserving of fish, crustaceans and molluscs"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "103",
+                            "description": "Processing and preserving of fruit and vegetables",
+                            "classes": [
+                                {
+                                    "class": "1030",
+                                    "description": "Processing and preserving of fruit and vegetables"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "104",
+                            "description": "Manufacture of vegetable and animal oils and fats",
+                            "classes": [
+                                {
+                                    "class": "1040",
+                                    "description": "Manufacture of vegetable and animal oils and fats"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "105",
+                            "description": "Manufacture of dairy products",
+                            "classes": [
+                                {
+                                    "class": "1050",
+                                    "description": "Manufacture of dairy products"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "106",
+                            "description": "Manufacture of grain mill products, starches and starch products",
+                            "classes": [
+                                {
+                                    "class": "1061",
+                                    "description": "Manufacture of grain mill products"
+                                },
+                                {
+                                    "class": "1062",
+                                    "description": "Manufacture of starches and starch products"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "107",
+                            "description": "Manufacture of other food products",
+                            "classes": [
+                                {
+                                    "class": "1071",
+                                    "description": "Manufacture of bakery products"
+                                },
+                                {
+                                    "class": "1072",
+                                    "description": "Manufacture of sugar"
+                                },
+                                {
+                                    "class": "1073",
+                                    "description": "Manufacture of cocoa, chocolate and sugar confectionery"
+                                },
+                                {
+                                    "class": "1074",
+                                    "description": "Manufacture of macaroni, noodles, couscous and similar farinaceous products"
+                                },
+                                {
+                                    "class": "1075",
+                                    "description": "Manufacture of prepared meals and dishes"
+                                },
+                                {
+                                    "class": "1079",
+                                    "description": "Manufacture of other food products n.e.c."
+                                }
+                            ]
+                        },
+                        {
+                            "group": "108",
+                            "description": "Manufacture of prepared animal feeds",
+                            "classes": [
+                                {
+                                    "class": "1080",
+                                    "description": "Manufacture of prepared animal feeds"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "11",
+                    "description": "Manufacture of beverages",
+                    "groups": [
+                        {
+                            "group": "110",
+                            "description": "Manufacture of beverages",
+                            "classes": [
+                                {
+                                    "class": "1101",
+                                    "description": "Distilling, rectifying and blending of spirits"
+                                },
+                                {
+                                    "class": "1102",
+                                    "description": "Manufacture of wines"
+                                },
+                                {
+                                    "class": "1103",
+                                    "description": "Manufacture of malt liquors and malt"
+                                },
+                                {
+                                    "class": "1104",
+                                    "description": "Manufacture of soft drinks; production of mineral waters and other bottled waters"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "12",
+                    "description": "Manufacture of tobacco products",
+                    "groups": [
+                        {
+                            "group": "120",
+                            "description": "Manufacture of tobacco products",
+                            "classes": [
+                                {
+                                    "class": "1200",
+                                    "description": "Manufacture of tobacco products"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "13",
+                    "description": "Manufacture of textiles",
+                    "groups": [
+                        {
+                            "group": "131",
+                            "description": "Spinning, weaving and finishing of textiles",
+                            "classes": [
+                                {
+                                    "class": "1311",
+                                    "description": "Preparation and spinning of textile fibres"
+                                },
+                                {
+                                    "class": "1312",
+                                    "description": "Weaving of textiles"
+                                },
+                                {
+                                    "class": "1313",
+                                    "description": "Finishing of textiles"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "139",
+                            "description": "Manufacture of other textiles",
+                            "classes": [
+                                {
+                                    "class": "1391",
+                                    "description": "Manufacture of knitted and crocheted fabrics"
+                                },
+                                {
+                                    "class": "1392",
+                                    "description": "Manufacture of made-up textile articles, except apparel"
+                                },
+                                {
+                                    "class": "1393",
+                                    "description": "Manufacture of carpets and rugs"
+                                },
+                                {
+                                    "class": "1394",
+                                    "description": "Manufacture of cordage, rope, twine and netting"
+                                },
+                                {
+                                    "class": "1399",
+                                    "description": "Manufacture of other textiles n.e.c."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "14",
+                    "description": "Manufacture of wearing apparel",
+                    "groups": [
+                        {
+                            "group": "141",
+                            "description": "Manufacture of wearing apparel, except fur apparel",
+                            "classes": [
+                                {
+                                    "class": "1410",
+                                    "description": "Manufacture of wearing apparel, except fur apparel"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "142",
+                            "description": "Manufacture of articles of fur",
+                            "classes": [
+                                {
+                                    "class": "1420",
+                                    "description": "Manufacture of articles of fur"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "143",
+                            "description": "Manufacture of knitted and crocheted apparel",
+                            "classes": [
+                                {
+                                    "class": "1430",
+                                    "description": "Manufacture of knitted and crocheted apparel"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "15",
+                    "description": "Manufacture of leather and related products",
+                    "groups": [
+                        {
+                            "group": "151",
+                            "description": "Tanning and dressing of leather; manufacture of luggage, handbags, saddlery and harness; dressing and dyeing of fur",
+                            "classes": [
+                                {
+                                    "class": "1511",
+                                    "description": "Tanning and dressing of leather; dressing and dyeing of fur"
+                                },
+                                {
+                                    "class": "1512",
+                                    "description": "Manufacture of luggage, handbags and the like, saddlery and harness"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "152",
+                            "description": "Manufacture of footwear",
+                            "classes": [
+                                {
+                                    "class": "1520",
+                                    "description": "Manufacture of footwear"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "16",
+                    "description": "Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials",
+                    "groups": [
+                        {
+                            "group": "161",
+                            "description": "Sawmilling and planing of wood",
+                            "classes": [
+                                {
+                                    "class": "1610",
+                                    "description": "Sawmilling and planing of wood"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "162",
+                            "description": "Manufacture of products of wood, cork, straw and plaiting materials",
+                            "classes": [
+                                {
+                                    "class": "1621",
+                                    "description": "Manufacture of veneer sheets and wood-based panels"
+                                },
+                                {
+                                    "class": "1622",
+                                    "description": "Manufacture of builders’ carpentry and joinery"
+                                },
+                                {
+                                    "class": "1623",
+                                    "description": "Manufacture of wooden containers"
+                                },
+                                {
+                                    "class": "1629",
+                                    "description": "Manufacture of other products of wood; manufacture of articles of cork, straw and plaiting materials"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "17",
+                    "description": "Manufacture of paper and paper products",
+                    "groups": [
+                        {
+                            "group": "170",
+                            "description": "Manufacture of paper and paper products",
+                            "classes": [
+                                {
+                                    "class": "1701",
+                                    "description": "Manufacture of pulp, paper and paperboard"
+                                },
+                                {
+                                    "class": "1702",
+                                    "description": "Manufacture of corrugated paper and paperboard and of containers of paper and paperboard"
+                                },
+                                {
+                                    "class": "1709",
+                                    "description": "Manufacture of other articles of paper and paperboard"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "18",
+                    "description": "Printing and reproduction of recorded media",
+                    "groups": [
+                        {
+                            "group": "181",
+                            "description": "Printing and service activities related to printing",
+                            "classes": [
+                                {
+                                    "class": "1811",
+                                    "description": "Printing"
+                                },
+                                {
+                                    "class": "1812",
+                                    "description": "Service activities related to printing"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "182",
+                            "description": "Reproduction of recorded media",
+                            "classes": [
+                                {
+                                    "class": "1820",
+                                    "description": "Reproduction of recorded media"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "19",
+                    "description": "Manufacture of coke and refined petroleum products",
+                    "groups": [
+                        {
+                            "group": "191",
+                            "description": "Manufacture of coke oven products",
+                            "classes": [
+                                {
+                                    "class": "1910",
+                                    "description": "Manufacture of coke oven products"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "192",
+                            "description": "Manufacture of refined petroleum products",
+                            "classes": [
+                                {
+                                    "class": "1920",
+                                    "description": "Manufacture of refined petroleum products"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "20",
+                    "description": "Manufacture of chemicals and chemical products",
+                    "groups": [
+                        {
+                            "group": "201",
+                            "description": "Manufacture of basic chemicals, fertilizers and nitrogen compounds, plastics and synthetic rubber in primary forms",
+                            "classes": [
+                                {
+                                    "class": "2011",
+                                    "description": "Manufacture of basic chemicals"
+                                },
+                                {
+                                    "class": "2012",
+                                    "description": "Manufacture of fertilizers and nitrogen compounds"
+                                },
+                                {
+                                    "class": "2013",
+                                    "description": "Manufacture of plastics and synthetic rubber in primary forms"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "202",
+                            "description": "Manufacture of other chemical products",
+                            "classes": [
+                                {
+                                    "class": "2021",
+                                    "description": "Manufacture of pesticides and other agrochemical products"
+                                },
+                                {
+                                    "class": "2022",
+                                    "description": "Manufacture of paints, varnishes and similar coatings, printing ink and mastics"
+                                },
+                                {
+                                    "class": "2023",
+                                    "description": "Manufacture of soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations"
+                                },
+                                {
+                                    "class": "2029",
+                                    "description": "Manufacture of other chemical products n.e.c."
+                                }
+                            ]
+                        },
+                        {
+                            "group": "203",
+                            "description": "Manufacture of man-made fibres",
+                            "classes": [
+                                {
+                                    "class": "2030",
+                                    "description": "Manufacture of man-made fibres"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "21",
+                    "description": "Manufacture of pharmaceuticals, medicinal chemical and botanical products",
+                    "groups": [
+                        {
+                            "group": "210",
+                            "description": "Manufacture of pharmaceutical and medicinal chemical and botanical products",
+                            "classes": [
+                                {
+                                    "class": "2100",
+                                    "description": "Manufacture of pharmaceutical and medicinal chemical and botanical products"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "22",
+                    "description": "Manufacture of rubber and plastics products",
+                    "groups": [
+                        {
+                            "group": "221",
+                            "description": "Manufacture of rubber products",
+                            "classes": [
+                                {
+                                    "class": "2211",
+                                    "description": "Manufacture of rubber tyres and tubes; retreading and rebuilding of rubber tyres"
+                                },
+                                {
+                                    "class": "2219",
+                                    "description": "Manufacture of other rubber products"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "222",
+                            "description": "Manufacture of plastics products",
+                            "classes": [
+                                {
+                                    "class": "2220",
+                                    "description": "Manufacture of plastics products"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "23",
+                    "description": "Manufacture of other non-metallic mineral products",
+                    "groups": [
+                        {
+                            "group": "231",
+                            "description": "Manufacture of glass and glass products",
+                            "classes": [
+                                {
+                                    "class": "2310",
+                                    "description": "Manufacture of glass and glass products"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "239",
+                            "description": "Manufacture of non-metallic mineral products n.e.c.",
+                            "classes": [
+                                {
+                                    "class": "2391",
+                                    "description": "Manufacture of refractory products"
+                                },
+                                {
+                                    "class": "2392",
+                                    "description": "Manufacture of clay building materials"
+                                },
+                                {
+                                    "class": "2393",
+                                    "description": "Manufacture of other porcelain and ceramic products"
+                                },
+                                {
+                                    "class": "2394",
+                                    "description": "Manufacture of cement, lime and plaster"
+                                },
+                                {
+                                    "class": "2395",
+                                    "description": "Manufacture of articles of concrete, cement and plaster"
+                                },
+                                {
+                                    "class": "2396",
+                                    "description": "Cutting, shaping and finishing of stone"
+                                },
+                                {
+                                    "class": "2399",
+                                    "description": "Manufacture of other non-metallic mineral products n.e.c."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "24",
+                    "description": "Manufacture of basic metals",
+                    "groups": [
+                        {
+                            "group": "241",
+                            "description": "Manufacture of basic iron and steel",
+                            "classes": [
+                                {
+                                    "class": "2410",
+                                    "description": "Manufacture of basic iron and steel"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "242",
+                            "description": "Manufacture of basic precious and other non-ferrous metals",
+                            "classes": [
+                                {
+                                    "class": "2420",
+                                    "description": "Manufacture of basic precious and other non-ferrous metals"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "243",
+                            "description": "Casting of metals",
+                            "classes": [
+                                {
+                                    "class": "2431",
+                                    "description": "Casting of iron and steel"
+                                },
+                                {
+                                    "class": "2432",
+                                    "description": "Casting of non-ferrous metals"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "25",
+                    "description": "Manufacture of fabricated metal products, except machinery and equipment",
+                    "groups": [
+                        {
+                            "group": "251",
+                            "description": "Manufacture of structural metal products, tanks, reservoirs and steam generators",
+                            "classes": [
+                                {
+                                    "class": "2511",
+                                    "description": "Manufacture of structural metal products"
+                                },
+                                {
+                                    "class": "2512",
+                                    "description": "Manufacture of tanks, reservoirs and containers of metal"
+                                },
+                                {
+                                    "class": "2513",
+                                    "description": "Manufacture of steam generators, except central heating hot water boilers"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "252",
+                            "description": "Manufacture of weapons and ammunition",
+                            "classes": [
+                                {
+                                    "class": "2520",
+                                    "description": "Manufacture of weapons and ammunition"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "259",
+                            "description": "Manufacture of other fabricated metal products; metalworking service activities",
+                            "classes": [
+                                {
+                                    "class": "2591",
+                                    "description": "Forging, pressing, stamping and roll-forming of metal; powder metallurgy"
+                                },
+                                {
+                                    "class": "2592",
+                                    "description": "Treatment and coating of metals; machining"
+                                },
+                                {
+                                    "class": "2593",
+                                    "description": "Manufacture of cutlery, hand tools and general hardware"
+                                },
+                                {
+                                    "class": "2599",
+                                    "description": "Manufacture of other fabricated metal products n.e.c."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "26",
+                    "description": "Manufacture of computer, electronic and optical products",
+                    "groups": [
+                        {
+                            "group": "261",
+                            "description": "Manufacture of electronic components and boards",
+                            "classes": [
+                                {
+                                    "class": "2610",
+                                    "description": "Manufacture of electronic components and boards"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "262",
+                            "description": "Manufacture of computers and peripheral equipment",
+                            "classes": [
+                                {
+                                    "class": "2620",
+                                    "description": "Manufacture of computers and peripheral equipment"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "263",
+                            "description": "Manufacture of communication equipment",
+                            "classes": [
+                                {
+                                    "class": "2630",
+                                    "description": "Manufacture of communication equipment"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "264",
+                            "description": "Manufacture of consumer electronics",
+                            "classes": [
+                                {
+                                    "class": "2640",
+                                    "description": "Manufacture of consumer electronics"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "265",
+                            "description": "Manufacture of measuring, testing, navigating and control equipment; watches and clocks",
+                            "classes": [
+                                {
+                                    "class": "2651",
+                                    "description": "Manufacture of measuring, testing, navigating and control equipment"
+                                },
+                                {
+                                    "class": "2652",
+                                    "description": "Manufacture of watches and clocks"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "266",
+                            "description": "Manufacture of irradiation, electromedical and electrotherapeutic equipment",
+                            "classes": [
+                                {
+                                    "class": "2660",
+                                    "description": "Manufacture of irradiation, electromedical and electrotherapeutic equipment"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "267",
+                            "description": "Manufacture of optical instruments and photographic equipment",
+                            "classes": [
+                                {
+                                    "class": "2670",
+                                    "description": "Manufacture of optical instruments and photographic equipment"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "268",
+                            "description": "Manufacture of magnetic and optical media",
+                            "classes": [
+                                {
+                                    "class": "2680",
+                                    "description": "Manufacture of magnetic and optical media"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "27",
+                    "description": "Manufacture of electrical equipment",
+                    "groups": [
+                        {
+                            "group": "271",
+                            "description": "Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus",
+                            "classes": [
+                                {
+                                    "class": "2710",
+                                    "description": "Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "272",
+                            "description": "Manufacture of batteries and accumulators",
+                            "classes": [
+                                {
+                                    "class": "2720",
+                                    "description": "Manufacture of batteries and accumulators"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "273",
+                            "description": "Manufacture of wiring and wiring devices",
+                            "classes": [
+                                {
+                                    "class": "2731",
+                                    "description": "Manufacture of fibre optic cables"
+                                },
+                                {
+                                    "class": "2732",
+                                    "description": "Manufacture of other electronic and electric wires and cables"
+                                },
+                                {
+                                    "class": "2733",
+                                    "description": "Manufacture of wiring devices"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "274",
+                            "description": "Manufacture of electric lighting equipment",
+                            "classes": [
+                                {
+                                    "class": "2740",
+                                    "description": "Manufacture of electric lighting equipment"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "275",
+                            "description": "Manufacture of domestic appliances",
+                            "classes": [
+                                {
+                                    "class": "2750",
+                                    "description": "Manufacture of domestic appliances"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "279",
+                            "description": "Manufacture of other electrical equipment",
+                            "classes": [
+                                {
+                                    "class": "2790",
+                                    "description": "Manufacture of other electrical equipment"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "28",
+                    "description": "Manufacture of machinery and equipment n.e.c.",
+                    "groups": [
+                        {
+                            "group": "281",
+                            "description": "Manufacture of general-purpose machinery",
+                            "classes": [
+                                {
+                                    "class": "2811",
+                                    "description": "Manufacture of engines and turbines, except aircraft, vehicle and cycle engines"
+                                },
+                                {
+                                    "class": "2812",
+                                    "description": "Manufacture of fluid power equipment"
+                                },
+                                {
+                                    "class": "2813",
+                                    "description": "Manufacture of other pumps, compressors, taps and valves"
+                                },
+                                {
+                                    "class": "2814",
+                                    "description": "Manufacture of bearings, gears, gearing and driving elements"
+                                },
+                                {
+                                    "class": "2815",
+                                    "description": "Manufacture of ovens, furnaces and furnace burners"
+                                },
+                                {
+                                    "class": "2816",
+                                    "description": "Manufacture of lifting and handling equipment"
+                                },
+                                {
+                                    "class": "2817",
+                                    "description": "Manufacture of office machinery and equipment (except computers and peripheral equipment)"
+                                },
+                                {
+                                    "class": "2818",
+                                    "description": "Manufacture of power-driven hand tools"
+                                },
+                                {
+                                    "class": "2819",
+                                    "description": "Manufacture of other general-purpose machinery"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "282",
+                            "description": "Manufacture of special-purpose machinery",
+                            "classes": [
+                                {
+                                    "class": "2821",
+                                    "description": "Manufacture of agricultural and forestry machinery"
+                                },
+                                {
+                                    "class": "2822",
+                                    "description": "Manufacture of metal-forming machinery and machine tools"
+                                },
+                                {
+                                    "class": "2823",
+                                    "description": "Manufacture of machinery for metallurgy"
+                                },
+                                {
+                                    "class": "2824",
+                                    "description": "Manufacture of machinery for mining, quarrying and construction"
+                                },
+                                {
+                                    "class": "2825",
+                                    "description": "Manufacture of machinery for food, beverage and tobacco processing"
+                                },
+                                {
+                                    "class": "2826",
+                                    "description": "Manufacture of machinery for textile, apparel and leather production"
+                                },
+                                {
+                                    "class": "2829",
+                                    "description": "Manufacture of other special-purpose machinery"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "29",
+                    "description": "Manufacture of motor vehicles, trailers and semi-trailers",
+                    "groups": [
+                        {
+                            "group": "291",
+                            "description": "Manufacture of motor vehicles",
+                            "classes": [
+                                {
+                                    "class": "2910",
+                                    "description": "Manufacture of motor vehicles"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "292",
+                            "description": "Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers",
+                            "classes": [
+                                {
+                                    "class": "2920",
+                                    "description": "Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "293",
+                            "description": "Manufacture of parts and accessories for motor vehicles",
+                            "classes": [
+                                {
+                                    "class": "2930",
+                                    "description": "Manufacture of parts and accessories for motor vehicles"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "30",
+                    "description": "Manufacture of other transport equipment",
+                    "groups": [
+                        {
+                            "group": "301",
+                            "description": "Building of ships and boats",
+                            "classes": [
+                                {
+                                    "class": "3011",
+                                    "description": "Building of ships and floating structures"
+                                },
+                                {
+                                    "class": "3012",
+                                    "description": "Building of pleasure and sporting boats"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "302",
+                            "description": "Manufacture of railway locomotives and rolling stock",
+                            "classes": [
+                                {
+                                    "class": "3020",
+                                    "description": "Manufacture of railway locomotives and rolling stock"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "303",
+                            "description": "Manufacture of air and spacecraft and related machinery",
+                            "classes": [
+                                {
+                                    "class": "3030",
+                                    "description": "Manufacture of air and spacecraft and related machinery"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "304",
+                            "description": "Manufacture of military fighting vehicles",
+                            "classes": [
+                                {
+                                    "class": "3040",
+                                    "description": "Manufacture of military fighting vehicles"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "309",
+                            "description": "Manufacture of transport equipment n.e.c.",
+                            "classes": [
+                                {
+                                    "class": "3091",
+                                    "description": "Manufacture of motorcycles"
+                                },
+                                {
+                                    "class": "3092",
+                                    "description": "Manufacture of bicycles and invalid carriages"
+                                },
+                                {
+                                    "class": "3099",
+                                    "description": "Manufacture of other transport equipment n.e.c."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "31",
+                    "description": "Manufacture of furniture",
+                    "groups": [
+                        {
+                            "group": "310",
+                            "description": "Manufacture of furniture",
+                            "classes": [
+                                {
+                                    "class": "3100",
+                                    "description": "Manufacture of furniture"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "32",
+                    "description": "Other manufacturing",
+                    "groups": [
+                        {
+                            "group": "321",
+                            "description": "Manufacture of jewellery, bijouterie and related articles",
+                            "classes": [
+                                {
+                                    "class": "3211",
+                                    "description": "Manufacture of jewellery and related articles"
+                                },
+                                {
+                                    "class": "3212",
+                                    "description": "Manufacture of imitation jewellery and related articles"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "322",
+                            "description": "Manufacture of musical instruments",
+                            "classes": [
+                                {
+                                    "class": "3220",
+                                    "description": "Manufacture of musical instruments"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "323",
+                            "description": "Manufacture of sports goods",
+                            "classes": [
+                                {
+                                    "class": "3230",
+                                    "description": "Manufacture of sports goods"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "324",
+                            "description": "Manufacture of games and toys",
+                            "classes": [
+                                {
+                                    "class": "3240",
+                                    "description": "Manufacture of games and toys"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "325",
+                            "description": "Manufacture of medical and dental instruments and supplies",
+                            "classes": [
+                                {
+                                    "class": "3250",
+                                    "description": "Manufacture of medical and dental instruments and supplies"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "329",
+                            "description": "Other manufacturing n.e.c.",
+                            "classes": [
+                                {
+                                    "class": "3290",
+                                    "description": "Other manufacturing n.e.c."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "33",
+                    "description": "Repair and installation of machinery and equipment",
+                    "groups": [
+                        {
+                            "group": "331",
+                            "description": "Repair of fabricated metal products, machinery and equipment",
+                            "classes": [
+                                {
+                                    "class": "3311",
+                                    "description": "Repair of fabricated metal products"
+                                },
+                                {
+                                    "class": "3312",
+                                    "description": "Repair of machinery"
+                                },
+                                {
+                                    "class": "3313",
+                                    "description": "Repair of electronic and optical equipment"
+                                },
+                                {
+                                    "class": "3314",
+                                    "description": "Repair of electrical equipment"
+                                },
+                                {
+                                    "class": "3315",
+                                    "description": "Repair of transport equipment, except motor vehicles"
+                                },
+                                {
+                                    "class": "3319",
+                                    "description": "Repair of other equipment"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "332",
+                            "description": "Installation of industrial machinery and equipment",
+                            "classes": [
+                                {
+                                    "class": "3320",
+                                    "description": "Installation of industrial machinery and equipment"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "d",
+            "description": "Electricity, gas, steam and air conditioning supply",
+            "divisions": [
+                {
+                    "division": "35",
+                    "description": "Electricity, gas, steam and air conditioning supply",
+                    "groups": [
+                        {
+                            "group": "351",
+                            "description": "Electric power generation, transmission and distribution",
+                            "classes": [
+                                {
+                                    "class": "3510",
+                                    "description": "Electric power generation, transmission and distribution"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "352",
+                            "description": "Manufacture of gas; distribution of gaseous fuels through mains",
+                            "classes": [
+                                {
+                                    "class": "3520",
+                                    "description": "Manufacture of gas; distribution of gaseous fuels through mains"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "353",
+                            "description": "Steam and air conditioning supply",
+                            "classes": [
+                                {
+                                    "class": "3530",
+                                    "description": "Steam and air conditioning supply"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "e",
+            "description": "Water supply; sewerage, waste management and remediation activities",
+            "divisions": [
+                {
+                    "division": "36",
+                    "description": "Water collection, treatment and supply",
+                    "groups": [
+                        {
+                            "group": "360",
+                            "description": "Water collection, treatment and supply",
+                            "classes": [
+                                {
+                                    "class": "3600",
+                                    "description": "Water collection, treatment and supply"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "37",
+                    "description": "Sewerage",
+                    "groups": [
+                        {
+                            "group": "370",
+                            "description": "Sewerage",
+                            "classes": [
+                                {
+                                    "class": "3700",
+                                    "description": "Sewerage"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "38",
+                    "description": "Waste collection, treatment and disposal activities; materials recovery",
+                    "groups": [
+                        {
+                            "group": "381",
+                            "description": "Waste collection",
+                            "classes": [
+                                {
+                                    "class": "3811",
+                                    "description": "Collection of non-hazardous waste"
+                                },
+                                {
+                                    "class": "3812",
+                                    "description": "Collection of hazardous waste"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "382",
+                            "description": "Waste treatment and disposal",
+                            "classes": [
+                                {
+                                    "class": "3821",
+                                    "description": "Treatment and disposal of non-hazardous waste"
+                                },
+                                {
+                                    "class": "3822",
+                                    "description": "Treatment and disposal of hazardous waste"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "383",
+                            "description": "Materials recovery",
+                            "classes": [
+                                {
+                                    "class": "3830",
+                                    "description": "Materials recovery"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "39",
+                    "description": "Remediation activities and other waste management services",
+                    "groups": [
+                        {
+                            "group": "390",
+                            "description": "Remediation activities and other waste management services",
+                            "classes": [
+                                {
+                                    "class": "3900",
+                                    "description": "Remediation activities and other waste management services"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "f",
+            "description": "Construction",
+            "divisions": [
+                {
+                    "division": "41",
+                    "description": "Construction of buildings",
+                    "groups": [
+                        {
+                            "group": "410",
+                            "description": "Construction of buildings",
+                            "classes": [
+                                {
+                                    "class": "4100",
+                                    "description": "Construction of buildings"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "42",
+                    "description": "Civil engineering",
+                    "groups": [
+                        {
+                            "group": "421",
+                            "description": "Construction of roads and railways",
+                            "classes": [
+                                {
+                                    "class": "4210",
+                                    "description": "Construction of roads and railways"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "422",
+                            "description": "Construction of utility projects",
+                            "classes": [
+                                {
+                                    "class": "4220",
+                                    "description": "Construction of utility projects"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "429",
+                            "description": "Construction of other civil engineering projects",
+                            "classes": [
+                                {
+                                    "class": "4290",
+                                    "description": "Construction of other civil engineering projects"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "43",
+                    "description": "Specialized construction activities",
+                    "groups": [
+                        {
+                            "group": "431",
+                            "description": "Demolition and site preparation",
+                            "classes": [
+                                {
+                                    "class": "4311",
+                                    "description": "Demolition"
+                                },
+                                {
+                                    "class": "4312",
+                                    "description": "Site preparation"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "432",
+                            "description": "Electrical, plumbing and other construction installation activities",
+                            "classes": [
+                                {
+                                    "class": "4321",
+                                    "description": "Electrical installation"
+                                },
+                                {
+                                    "class": "4322",
+                                    "description": "Plumbing, heat and air-conditioning installation"
+                                },
+                                {
+                                    "class": "4329",
+                                    "description": "Other construction installation"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "433",
+                            "description": "Building completion and finishing",
+                            "classes": [
+                                {
+                                    "class": "4330",
+                                    "description": "Building completion and finishing"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "439",
+                            "description": "Other specialized construction activities",
+                            "classes": [
+                                {
+                                    "class": "4390",
+                                    "description": "Other specialized construction activities"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "g",
+            "description": "Wholesale and retail trade; repair of motor vehicles and motorcycles",
+            "divisions": [
+                {
+                    "division": "45",
+                    "description": "Wholesale and retail trade and repair of motor vehicles and motorcycles",
+                    "groups": [
+                        {
+                            "group": "451",
+                            "description": "Sale of motor vehicles",
+                            "classes": [
+                                {
+                                    "class": "4510",
+                                    "description": "Sale of motor vehicles"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "452",
+                            "description": "Maintenance and repair of motor vehicles",
+                            "classes": [
+                                {
+                                    "class": "4520",
+                                    "description": "Maintenance and repair of motor vehicles"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "453",
+                            "description": "Sale of motor vehicle parts and accessories",
+                            "classes": [
+                                {
+                                    "class": "4530",
+                                    "description": "Sale of motor vehicle parts and accessories"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "454",
+                            "description": "Sale, maintenance and repair of motorcycles and related parts and accessories",
+                            "classes": [
+                                {
+                                    "class": "4540",
+                                    "description": "Sale, maintenance and repair of motorcycles and related parts and accessories"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "46",
+                    "description": "Wholesale trade, except of motor vehicles and motorcycles",
+                    "groups": [
+                        {
+                            "group": "461",
+                            "description": "Wholesale on a fee or contract basis",
+                            "classes": [
+                                {
+                                    "class": "4610",
+                                    "description": "Wholesale on a fee or contract basis"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "462",
+                            "description": "Wholesale of agricultural raw materials and live animals",
+                            "classes": [
+                                {
+                                    "class": "4620",
+                                    "description": "Wholesale of agricultural raw materials and live animals"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "463",
+                            "description": "Wholesale of food, beverages and tobacco",
+                            "classes": [
+                                {
+                                    "class": "4630",
+                                    "description": "Wholesale of food, beverages and tobacco"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "464",
+                            "description": "Wholesale of household goods",
+                            "classes": [
+                                {
+                                    "class": "4641",
+                                    "description": "Wholesale of textiles, clothing and footwear"
+                                },
+                                {
+                                    "class": "4649",
+                                    "description": "Wholesale of other household goods"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "465",
+                            "description": "Wholesale of machinery, equipment and supplies",
+                            "classes": [
+                                {
+                                    "class": "4651",
+                                    "description": "Wholesale of computers, computer peripheral equipment and software"
+                                },
+                                {
+                                    "class": "4652",
+                                    "description": "Wholesale of electronic and telecommunications equipment and parts"
+                                },
+                                {
+                                    "class": "4653",
+                                    "description": "Wholesale of agricultural machinery, equipment and supplies"
+                                },
+                                {
+                                    "class": "4659",
+                                    "description": "Wholesale of other machinery and equipment"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "466",
+                            "description": "Other specialized wholesale",
+                            "classes": [
+                                {
+                                    "class": "4661",
+                                    "description": "Wholesale of solid, liquid and gaseous fuels and related products"
+                                },
+                                {
+                                    "class": "4662",
+                                    "description": "Wholesale of metals and metal ores"
+                                },
+                                {
+                                    "class": "4663",
+                                    "description": "Wholesale of construction materials, hardware, plumbing and heating equipment and supplies"
+                                },
+                                {
+                                    "class": "4669",
+                                    "description": "Wholesale of waste and scrap and other products n.e.c."
+                                }
+                            ]
+                        },
+                        {
+                            "group": "469",
+                            "description": "Non-specialized wholesale trade",
+                            "classes": [
+                                {
+                                    "class": "4690",
+                                    "description": "Non-specialized wholesale trade"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "47",
+                    "description": "Retail trade, except of motor vehicles and motorcycles",
+                    "groups": [
+                        {
+                            "group": "471",
+                            "description": "Retail sale in non-specialized stores",
+                            "classes": [
+                                {
+                                    "class": "4711",
+                                    "description": "Retail sale in non-specialized stores with food, beverages or tobacco predominating"
+                                },
+                                {
+                                    "class": "4719",
+                                    "description": "Other retail sale in non-specialized stores"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "472",
+                            "description": "Retail sale of food, beverages and tobacco in specialized stores",
+                            "classes": [
+                                {
+                                    "class": "4721",
+                                    "description": "Retail sale of food in specialized stores"
+                                },
+                                {
+                                    "class": "4722",
+                                    "description": "Retail sale of beverages in specialized stores"
+                                },
+                                {
+                                    "class": "4723",
+                                    "description": "Retail sale of tobacco products in specialized stores"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "473",
+                            "description": "Retail sale of automotive fuel in specialized stores",
+                            "classes": [
+                                {
+                                    "class": "4730",
+                                    "description": "Retail sale of automotive fuel in specialized stores"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "474",
+                            "description": "Retail sale of information and communications equipment in specialized stores",
+                            "classes": [
+                                {
+                                    "class": "4741",
+                                    "description": "Retail sale of computers, peripheral units, software and telecommunications equipment in specialized stores"
+                                },
+                                {
+                                    "class": "4742",
+                                    "description": "Retail sale of audio and video equipment in specialized stores"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "475",
+                            "description": "Retail sale of other household equipment in specialized stores",
+                            "classes": [
+                                {
+                                    "class": "4751",
+                                    "description": "Retail sale of textiles in specialized stores"
+                                },
+                                {
+                                    "class": "4752",
+                                    "description": "Retail sale of hardware, paints and glass in specialized stores"
+                                },
+                                {
+                                    "class": "4753",
+                                    "description": "Retail sale of carpets, rugs, wall and floor coverings in specialized stores"
+                                },
+                                {
+                                    "class": "4759",
+                                    "description": "Retail sale of electrical household appliances, furniture, lighting equipment and other household articles in specialized stores"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "476",
+                            "description": "Retail sale of cultural and recreation goods in specialized stores",
+                            "classes": [
+                                {
+                                    "class": "4761",
+                                    "description": "Retail sale of books, newspapers and stationary in specialized stores"
+                                },
+                                {
+                                    "class": "4762",
+                                    "description": "Retail sale of music and video recordings in specialized stores"
+                                },
+                                {
+                                    "class": "4763",
+                                    "description": "Retail sale of sporting equipment in specialized stores"
+                                },
+                                {
+                                    "class": "4764",
+                                    "description": "Retail sale of games and toys in specialized stores"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "477",
+                            "description": "Retail sale of other goods in specialized stores",
+                            "classes": [
+                                {
+                                    "class": "4771",
+                                    "description": "Retail sale of clothing, footwear and leather articles in specialized stores"
+                                },
+                                {
+                                    "class": "4772",
+                                    "description": "Retail sale of pharmaceutical and medical goods, cosmetic and toilet articles in specialized stores"
+                                },
+                                {
+                                    "class": "4773",
+                                    "description": "Other retail sale of new goods in specialized stores"
+                                },
+                                {
+                                    "class": "4774",
+                                    "description": "Retail sale of second-hand goods"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "478",
+                            "description": "Retail sale via stalls and markets",
+                            "classes": [
+                                {
+                                    "class": "4781",
+                                    "description": "Retail sale via stalls and markets of food, beverages and tobacco products"
+                                },
+                                {
+                                    "class": "4782",
+                                    "description": "Retail sale via stalls and markets of textiles, clothing and footwear"
+                                },
+                                {
+                                    "class": "4789",
+                                    "description": "Retail sale via stalls and markets of other goods"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "479",
+                            "description": "Retail trade not in stores, stalls or markets",
+                            "classes": [
+                                {
+                                    "class": "4791",
+                                    "description": "Retail sale via mail order houses or via Internet"
+                                },
+                                {
+                                    "class": "4799",
+                                    "description": "Other retail sale not in stores, stalls or markets"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "h",
+            "description": "Transportation and storage",
+            "divisions": [
+                {
+                    "division": "49",
+                    "description": "Land transport and transport via pipelines",
+                    "groups": [
+                        {
+                            "group": "491",
+                            "description": "Transport via railways",
+                            "classes": [
+                                {
+                                    "class": "4911",
+                                    "description": "Passenger rail transport, interurban"
+                                },
+                                {
+                                    "class": "4912",
+                                    "description": "Freight rail transport"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "492",
+                            "description": "Other land transport",
+                            "classes": [
+                                {
+                                    "class": "4921",
+                                    "description": "Urban and suburban passenger land transport"
+                                },
+                                {
+                                    "class": "4922",
+                                    "description": "Other passenger land transport"
+                                },
+                                {
+                                    "class": "4923",
+                                    "description": "Freight transport by road"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "493",
+                            "description": "Transport via pipeline",
+                            "classes": [
+                                {
+                                    "class": "4930",
+                                    "description": "Transport via pipeline"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "50",
+                    "description": "Water transport",
+                    "groups": [
+                        {
+                            "group": "501",
+                            "description": "Sea and coastal water transport",
+                            "classes": [
+                                {
+                                    "class": "5011",
+                                    "description": "Sea and coastal passenger water transport"
+                                },
+                                {
+                                    "class": "5012",
+                                    "description": "Sea and coastal freight water transport"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "502",
+                            "description": "Inland water transport",
+                            "classes": [
+                                {
+                                    "class": "5021",
+                                    "description": "Inland passenger water transport"
+                                },
+                                {
+                                    "class": "5022",
+                                    "description": "Inland freight water transport"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "51",
+                    "description": "Air transport",
+                    "groups": [
+                        {
+                            "group": "511",
+                            "description": "Passenger air transport",
+                            "classes": [
+                                {
+                                    "class": "5110",
+                                    "description": "Passenger air transport"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "512",
+                            "description": "Freight air transport",
+                            "classes": [
+                                {
+                                    "class": "5120",
+                                    "description": "Freight air transport"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "52",
+                    "description": "Warehousing and support activities for transportation",
+                    "groups": [
+                        {
+                            "group": "521",
+                            "description": "Warehousing and storage",
+                            "classes": [
+                                {
+                                    "class": "5210",
+                                    "description": "Warehousing and storage"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "522",
+                            "description": "Support activities for transportation",
+                            "classes": [
+                                {
+                                    "class": "5221",
+                                    "description": "Service activities incidental to land transportation"
+                                },
+                                {
+                                    "class": "5222",
+                                    "description": "Service activities incidental to water transportation"
+                                },
+                                {
+                                    "class": "5223",
+                                    "description": "Service activities incidental to air transportation"
+                                },
+                                {
+                                    "class": "5224",
+                                    "description": "Cargo handling"
+                                },
+                                {
+                                    "class": "5229",
+                                    "description": "Other transportation support activities"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "53",
+                    "description": "Postal and courier activities",
+                    "groups": [
+                        {
+                            "group": "531",
+                            "description": "Postal activities",
+                            "classes": [
+                                {
+                                    "class": "5310",
+                                    "description": "Postal activities"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "532",
+                            "description": "Courier activities",
+                            "classes": [
+                                {
+                                    "class": "5320",
+                                    "description": "Courier activities"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "i",
+            "description": "Accommodation and food service activities",
+            "divisions": [
+                {
+                    "division": "55",
+                    "description": "Accommodation",
+                    "groups": [
+                        {
+                            "group": "551",
+                            "description": "Short term accommodation activities",
+                            "classes": [
+                                {
+                                    "class": "5510",
+                                    "description": "Short term accommodation activities"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "552",
+                            "description": "Camping grounds, recreational vehicle parks and trailer parks",
+                            "classes": [
+                                {
+                                    "class": "5520",
+                                    "description": "Camping grounds, recreational vehicle parks and trailer parks"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "559",
+                            "description": "Other accommodation",
+                            "classes": [
+                                {
+                                    "class": "5590",
+                                    "description": "Other accommodation"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "56",
+                    "description": "Food and beverage service activities",
+                    "groups": [
+                        {
+                            "group": "561",
+                            "description": "Restaurants and mobile food service activities",
+                            "classes": [
+                                {
+                                    "class": "5610",
+                                    "description": "Restaurants and mobile food service activities"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "562",
+                            "description": "Event catering and other food service activities",
+                            "classes": [
+                                {
+                                    "class": "5621",
+                                    "description": "Event catering"
+                                },
+                                {
+                                    "class": "5629",
+                                    "description": "Other food service activities"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "563",
+                            "description": "Beverage serving activities",
+                            "classes": [
+                                {
+                                    "class": "5630",
+                                    "description": "Beverage serving activities"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "j",
+            "description": "Information and communication",
+            "divisions": [
+                {
+                    "division": "58",
+                    "description": "Publishing activities",
+                    "groups": [
+                        {
+                            "group": "581",
+                            "description": "Publishing of books, periodicals and other publishing activities",
+                            "classes": [
+                                {
+                                    "class": "5811",
+                                    "description": "Book publishing"
+                                },
+                                {
+                                    "class": "5812",
+                                    "description": "Publishing of directories and mailing lists"
+                                },
+                                {
+                                    "class": "5813",
+                                    "description": "Publishing of newspapers, journals and periodicals"
+                                },
+                                {
+                                    "class": "5819",
+                                    "description": "Other publishing activities"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "582",
+                            "description": "Software publishing",
+                            "classes": [
+                                {
+                                    "class": "5820",
+                                    "description": "Software publishing"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "59",
+                    "description": "Motion picture, video and television programme production, sound recording and music publishing activities",
+                    "groups": [
+                        {
+                            "group": "591",
+                            "description": "Motion picture, video and television programme activities",
+                            "classes": [
+                                {
+                                    "class": "5911",
+                                    "description": "Motion picture, video and television programme production activities"
+                                },
+                                {
+                                    "class": "5912",
+                                    "description": "Motion picture, video and television programme post-production activities"
+                                },
+                                {
+                                    "class": "5913",
+                                    "description": "Motion picture, video and television programme distribution activities"
+                                },
+                                {
+                                    "class": "5914",
+                                    "description": "Motion picture projection activities"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "592",
+                            "description": "Sound recording and music publishing activities",
+                            "classes": [
+                                {
+                                    "class": "5920",
+                                    "description": "Sound recording and music publishing activities"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "60",
+                    "description": "Programming and broadcasting activities",
+                    "groups": [
+                        {
+                            "group": "601",
+                            "description": "Radio broadcasting",
+                            "classes": [
+                                {
+                                    "class": "6010",
+                                    "description": "Radio broadcasting"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "602",
+                            "description": "Television programming and broadcasting activities",
+                            "classes": [
+                                {
+                                    "class": "6020",
+                                    "description": "Television programming and broadcasting activities"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "61",
+                    "description": "Telecommunications",
+                    "groups": [
+                        {
+                            "group": "611",
+                            "description": "Wired telecommunications activities",
+                            "classes": [
+                                {
+                                    "class": "6110",
+                                    "description": "Wired telecommunications activities"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "612",
+                            "description": "Wireless telecommunications activities",
+                            "classes": [
+                                {
+                                    "class": "6120",
+                                    "description": "Wireless telecommunications activities"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "613",
+                            "description": "Satellite telecommunications activities",
+                            "classes": [
+                                {
+                                    "class": "6130",
+                                    "description": "Satellite telecommunications activities"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "619",
+                            "description": "Other telecommunications activities",
+                            "classes": [
+                                {
+                                    "class": "6190",
+                                    "description": "Other telecommunications activities"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "62",
+                    "description": "Computer programming, consultancy and related activities",
+                    "groups": [
+                        {
+                            "group": "620",
+                            "description": "Computer programming, consultancy and related activities",
+                            "classes": [
+                                {
+                                    "class": "6201",
+                                    "description": "Computer programming activities"
+                                },
+                                {
+                                    "class": "6202",
+                                    "description": "Computer consultancy and computer facilities management activities"
+                                },
+                                {
+                                    "class": "6209",
+                                    "description": "Other information technology and computer service activities"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "63",
+                    "description": "Information service activities",
+                    "groups": [
+                        {
+                            "group": "631",
+                            "description": "Data processing, hosting and related activities; web portals",
+                            "classes": [
+                                {
+                                    "class": "6311",
+                                    "description": "Data processing, hosting and related activities"
+                                },
+                                {
+                                    "class": "6312",
+                                    "description": "Web portals"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "639",
+                            "description": "Other information service activities",
+                            "classes": [
+                                {
+                                    "class": "6391",
+                                    "description": "News agency activities"
+                                },
+                                {
+                                    "class": "6399",
+                                    "description": "Other information service activities n.e.c."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "k",
+            "description": "Financial and insurance activities",
+            "divisions": [
+                {
+                    "division": "64",
+                    "description": "Financial service activities, except insurance and pension funding",
+                    "groups": [
+                        {
+                            "group": "641",
+                            "description": "Monetary intermediation",
+                            "classes": [
+                                {
+                                    "class": "6411",
+                                    "description": "Central banking"
+                                },
+                                {
+                                    "class": "6419",
+                                    "description": "Other monetary intermediation"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "642",
+                            "description": "Activities of holding companies",
+                            "classes": [
+                                {
+                                    "class": "6420",
+                                    "description": "Activities of holding companies"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "643",
+                            "description": "Trusts, funds and similar financial entities",
+                            "classes": [
+                                {
+                                    "class": "6430",
+                                    "description": "Trusts, funds and similar financial entities"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "649",
+                            "description": "Other financial service activities, except insurance and pension funding activities",
+                            "classes": [
+                                {
+                                    "class": "6491",
+                                    "description": "Financial leasing"
+                                },
+                                {
+                                    "class": "6492",
+                                    "description": "Other credit granting"
+                                },
+                                {
+                                    "class": "6499",
+                                    "description": "Other financial service activities, except insurance and pension funding activities, n.e.c."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "65",
+                    "description": "Insurance, reinsurance and pension funding, except compulsory social security",
+                    "groups": [
+                        {
+                            "group": "651",
+                            "description": "Insurance",
+                            "classes": [
+                                {
+                                    "class": "6511",
+                                    "description": "Life insurance"
+                                },
+                                {
+                                    "class": "6512",
+                                    "description": "Non-life insurance"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "652",
+                            "description": "Reinsurance",
+                            "classes": [
+                                {
+                                    "class": "6520",
+                                    "description": "Reinsurance"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "653",
+                            "description": "Pension funding",
+                            "classes": [
+                                {
+                                    "class": "6530",
+                                    "description": "Pension funding"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "66",
+                    "description": "Activities auxiliary to financial service and insurance activities",
+                    "groups": [
+                        {
+                            "group": "661",
+                            "description": "Activities auxiliary to financial service activities, except insurance and pension funding",
+                            "classes": [
+                                {
+                                    "class": "6611",
+                                    "description": "Administration of financial markets"
+                                },
+                                {
+                                    "class": "6612",
+                                    "description": "Security and commodity contracts brokerage"
+                                },
+                                {
+                                    "class": "6619",
+                                    "description": "Other activities auxiliary to financial service activities"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "662",
+                            "description": "Activities auxiliary to insurance and pension funding",
+                            "classes": [
+                                {
+                                    "class": "6621",
+                                    "description": "Risk and damage evaluation"
+                                },
+                                {
+                                    "class": "6622",
+                                    "description": "Activities of insurance agents and brokers"
+                                },
+                                {
+                                    "class": "6629",
+                                    "description": "Other activities auxiliary to insurance and pension funding"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "663",
+                            "description": "Fund management activities",
+                            "classes": [
+                                {
+                                    "class": "6630",
+                                    "description": "Fund management activities"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "l",
+            "description": "Real estate activities",
+            "divisions": [
+                {
+                    "division": "68",
+                    "description": "Real estate activities",
+                    "groups": [
+                        {
+                            "group": "681",
+                            "description": "Real estate activities with own or leased property",
+                            "classes": [
+                                {
+                                    "class": "6810",
+                                    "description": "Real estate activities with own or leased property"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "682",
+                            "description": "Real estate activities on a fee or contract basis",
+                            "classes": [
+                                {
+                                    "class": "6820",
+                                    "description": "Real estate activities on a fee or contract basis"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "m",
+            "description": "Professional, scientific and technical activities",
+            "divisions": [
+                {
+                    "division": "69",
+                    "description": "Legal and accounting activities",
+                    "groups": [
+                        {
+                            "group": "691",
+                            "description": "Legal activities",
+                            "classes": [
+                                {
+                                    "class": "6910",
+                                    "description": "Legal activities"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "692",
+                            "description": "Accounting, bookkeeping and auditing activities; tax consultancy",
+                            "classes": [
+                                {
+                                    "class": "6920",
+                                    "description": "Accounting, bookkeeping and auditing activities; tax consultancy"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "70",
+                    "description": "Activities of head offices; management consultancy activities",
+                    "groups": [
+                        {
+                            "group": "701",
+                            "description": "Activities of head offices",
+                            "classes": [
+                                {
+                                    "class": "7010",
+                                    "description": "Activities of head offices"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "702",
+                            "description": "Management consultancy activities",
+                            "classes": [
+                                {
+                                    "class": "7020",
+                                    "description": "Management consultancy activities"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "71",
+                    "description": "Architectural and engineering activities; technical testing and analysis",
+                    "groups": [
+                        {
+                            "group": "711",
+                            "description": "Architectural and engineering activities and related technical consultancy",
+                            "classes": [
+                                {
+                                    "class": "7110",
+                                    "description": "Architectural and engineering activities and related technical consultancy"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "712",
+                            "description": "Technical testing and analysis",
+                            "classes": [
+                                {
+                                    "class": "7120",
+                                    "description": "Technical testing and analysis"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "72",
+                    "description": "Scientific research and development",
+                    "groups": [
+                        {
+                            "group": "721",
+                            "description": "Research and experimental development on natural sciences and engineering",
+                            "classes": [
+                                {
+                                    "class": "7210",
+                                    "description": "Research and experimental development on natural sciences and engineering"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "722",
+                            "description": "Research and experimental development on social sciences and humanities",
+                            "classes": [
+                                {
+                                    "class": "7220",
+                                    "description": "Research and experimental development on social sciences and humanities"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "73",
+                    "description": "Advertising and market research",
+                    "groups": [
+                        {
+                            "group": "731",
+                            "description": "Advertising",
+                            "classes": [
+                                {
+                                    "class": "7310",
+                                    "description": "Advertising"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "732",
+                            "description": "Market research and public opinion polling",
+                            "classes": [
+                                {
+                                    "class": "7320",
+                                    "description": "Market research and public opinion polling"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "74",
+                    "description": "Other professional, scientific and technical activities",
+                    "groups": [
+                        {
+                            "group": "741",
+                            "description": "Specialized design activities",
+                            "classes": [
+                                {
+                                    "class": "7410",
+                                    "description": "Specialized design activities"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "742",
+                            "description": "Photographic activities",
+                            "classes": [
+                                {
+                                    "class": "7420",
+                                    "description": "Photographic activities"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "749",
+                            "description": "Other professional, scientific and technical activities n.e.c.",
+                            "classes": [
+                                {
+                                    "class": "7490",
+                                    "description": "Other professional, scientific and technical activities n.e.c."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "75",
+                    "description": "Veterinary activities",
+                    "groups": [
+                        {
+                            "group": "750",
+                            "description": "Veterinary activities",
+                            "classes": [
+                                {
+                                    "class": "7500",
+                                    "description": "Veterinary activities"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "n",
+            "description": "Administrative and support service activities",
+            "divisions": [
+                {
+                    "division": "77",
+                    "description": "Rental and leasing activities",
+                    "groups": [
+                        {
+                            "group": "771",
+                            "description": "Renting and leasing of motor vehicles",
+                            "classes": [
+                                {
+                                    "class": "7710",
+                                    "description": "Renting and leasing of motor vehicles"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "772",
+                            "description": "Renting and leasing of personal and household goods",
+                            "classes": [
+                                {
+                                    "class": "7721",
+                                    "description": "Renting and leasing of recreational and sports goods"
+                                },
+                                {
+                                    "class": "7722",
+                                    "description": "Renting of video tapes and disks"
+                                },
+                                {
+                                    "class": "7729",
+                                    "description": "Renting and leasing of other personal and household goods"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "773",
+                            "description": "Renting and leasing of other machinery, equipment and tangible goods",
+                            "classes": [
+                                {
+                                    "class": "7730",
+                                    "description": "Renting and leasing of other machinery, equipment and tangible goods"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "774",
+                            "description": "Leasing of intellectual property and similar products, except copyrighted works",
+                            "classes": [
+                                {
+                                    "class": "7740",
+                                    "description": "Leasing of intellectual property and similar products, except copyrighted works"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "78",
+                    "description": "Employment activities",
+                    "groups": [
+                        {
+                            "group": "781",
+                            "description": "Activities of employment placement agencies",
+                            "classes": [
+                                {
+                                    "class": "7810",
+                                    "description": "Activities of employment placement agencies"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "782",
+                            "description": "Temporary employment agency activities",
+                            "classes": [
+                                {
+                                    "class": "7820",
+                                    "description": "Temporary employment agency activities"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "783",
+                            "description": "Other human resources provision",
+                            "classes": [
+                                {
+                                    "class": "7830",
+                                    "description": "Other human resources provision"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "79",
+                    "description": "Travel agency, tour operator, reservation service and related activities",
+                    "groups": [
+                        {
+                            "group": "791",
+                            "description": "Travel agency and tour operator activities",
+                            "classes": [
+                                {
+                                    "class": "7911",
+                                    "description": "Travel agency activities"
+                                },
+                                {
+                                    "class": "7912",
+                                    "description": "Tour operator activities"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "799",
+                            "description": "Other reservation service and related activities",
+                            "classes": [
+                                {
+                                    "class": "7990",
+                                    "description": "Other reservation service and related activities"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "80",
+                    "description": "Security and investigation activities",
+                    "groups": [
+                        {
+                            "group": "801",
+                            "description": "Private security activities",
+                            "classes": [
+                                {
+                                    "class": "8010",
+                                    "description": "Private security activities"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "802",
+                            "description": "Security systems service activities",
+                            "classes": [
+                                {
+                                    "class": "8020",
+                                    "description": "Security systems service activities"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "803",
+                            "description": "Investigation activities",
+                            "classes": [
+                                {
+                                    "class": "8030",
+                                    "description": "Investigation activities"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "81",
+                    "description": "Services to buildings and landscape activities",
+                    "groups": [
+                        {
+                            "group": "811",
+                            "description": "Combined facilities support activities",
+                            "classes": [
+                                {
+                                    "class": "8110",
+                                    "description": "Combined facilities support activities"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "812",
+                            "description": "Cleaning activities",
+                            "classes": [
+                                {
+                                    "class": "8121",
+                                    "description": "General cleaning of buildings"
+                                },
+                                {
+                                    "class": "8129",
+                                    "description": "Other building and industrial cleaning activities"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "813",
+                            "description": "Landscape care and maintenance service activities",
+                            "classes": [
+                                {
+                                    "class": "8130",
+                                    "description": "Landscape care and maintenance service activities"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "82",
+                    "description": "Office administrative, office support and other business support activities",
+                    "groups": [
+                        {
+                            "group": "821",
+                            "description": "Office administrative and support activities",
+                            "classes": [
+                                {
+                                    "class": "8211",
+                                    "description": "Combined office administrative service activities"
+                                },
+                                {
+                                    "class": "8219",
+                                    "description": "Photocopying, document preparation and other specialized office support activities"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "822",
+                            "description": "Activities of call centres",
+                            "classes": [
+                                {
+                                    "class": "8220",
+                                    "description": "Activities of call centres"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "823",
+                            "description": "Organization of conventions and trade shows",
+                            "classes": [
+                                {
+                                    "class": "8230",
+                                    "description": "Organization of conventions and trade shows"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "829",
+                            "description": "Business support service activities n.e.c.",
+                            "classes": [
+                                {
+                                    "class": "8291",
+                                    "description": "Activities of collection agencies and credit bureaus"
+                                },
+                                {
+                                    "class": "8292",
+                                    "description": "Packaging activities"
+                                },
+                                {
+                                    "class": "8299",
+                                    "description": "Other business support service activities n.e.c."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "o",
+            "description": "Public administration and defence; compulsory social security",
+            "divisions": [
+                {
+                    "division": "84",
+                    "description": "Public administration and defence; compulsory social security",
+                    "groups": [
+                        {
+                            "group": "841",
+                            "description": "Administration of the State and the economic and social policy of the community",
+                            "classes": [
+                                {
+                                    "class": "8411",
+                                    "description": "General public administration activities"
+                                },
+                                {
+                                    "class": "8412",
+                                    "description": "Regulation of the activities of providing health care, education, cultural services and other social services, excluding social security"
+                                },
+                                {
+                                    "class": "8413",
+                                    "description": "Regulation of and contribution to more efficient operation of businesses"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "842",
+                            "description": "Provision of services to the community as a whole",
+                            "classes": [
+                                {
+                                    "class": "8421",
+                                    "description": "Foreign affairs"
+                                },
+                                {
+                                    "class": "8422",
+                                    "description": "Defence activities"
+                                },
+                                {
+                                    "class": "8423",
+                                    "description": "Public order and safety activities"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "843",
+                            "description": "Compulsory social security activities",
+                            "classes": [
+                                {
+                                    "class": "8430",
+                                    "description": "Compulsory social security activities"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "p",
+            "description": "Education",
+            "divisions": [
+                {
+                    "division": "85",
+                    "description": "Education",
+                    "groups": [
+                        {
+                            "group": "851",
+                            "description": "Pre-primary and primary education",
+                            "classes": [
+                                {
+                                    "class": "8510",
+                                    "description": "Pre-primary and primary education"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "852",
+                            "description": "Secondary education",
+                            "classes": [
+                                {
+                                    "class": "8521",
+                                    "description": "General secondary education"
+                                },
+                                {
+                                    "class": "8522",
+                                    "description": "Technical and vocational secondary education"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "853",
+                            "description": "Higher education",
+                            "classes": [
+                                {
+                                    "class": "8530",
+                                    "description": "Higher education"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "854",
+                            "description": "Other education",
+                            "classes": [
+                                {
+                                    "class": "8541",
+                                    "description": "Sports and recreation education"
+                                },
+                                {
+                                    "class": "8542",
+                                    "description": "Cultural education"
+                                },
+                                {
+                                    "class": "8549",
+                                    "description": "Other education n.e.c."
+                                }
+                            ]
+                        },
+                        {
+                            "group": "855",
+                            "description": "Educational support activities",
+                            "classes": [
+                                {
+                                    "class": "8550",
+                                    "description": "Educational support activities"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "q",
+            "description": "Human health and social work activities",
+            "divisions": [
+                {
+                    "division": "86",
+                    "description": "Human health activities",
+                    "groups": [
+                        {
+                            "group": "861",
+                            "description": "Hospital activities",
+                            "classes": [
+                                {
+                                    "class": "8610",
+                                    "description": "Hospital activities"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "862",
+                            "description": "Medical and dental practice activities",
+                            "classes": [
+                                {
+                                    "class": "8620",
+                                    "description": "Medical and dental practice activities"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "869",
+                            "description": "Other human health activities",
+                            "classes": [
+                                {
+                                    "class": "8690",
+                                    "description": "Other human health activities"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "87",
+                    "description": "Residential care activities",
+                    "groups": [
+                        {
+                            "group": "871",
+                            "description": "Residential nursing care facilities",
+                            "classes": [
+                                {
+                                    "class": "8710",
+                                    "description": "Residential nursing care facilities"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "872",
+                            "description": "Residential care activities for mental retardation, mental health and substance abuse",
+                            "classes": [
+                                {
+                                    "class": "8720",
+                                    "description": "Residential care activities for mental retardation, mental health and substance abuse"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "873",
+                            "description": "Residential care activities for the elderly and disabled",
+                            "classes": [
+                                {
+                                    "class": "8730",
+                                    "description": "Residential care activities for the elderly and disabled"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "879",
+                            "description": "Other residential care activities",
+                            "classes": [
+                                {
+                                    "class": "8790",
+                                    "description": "Other residential care activities"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "88",
+                    "description": "Social work activities without accommodation",
+                    "groups": [
+                        {
+                            "group": "881",
+                            "description": "Social work activities without accommodation for the elderly and disabled",
+                            "classes": [
+                                {
+                                    "class": "8810",
+                                    "description": "Social work activities without accommodation for the elderly and disabled"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "889",
+                            "description": "Other social work activities without accommodation",
+                            "classes": [
+                                {
+                                    "class": "8890",
+                                    "description": "Other social work activities without accommodation"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "r",
+            "description": "Arts, entertainment and recreation",
+            "divisions": [
+                {
+                    "division": "90",
+                    "description": "Creative, arts and entertainment activities",
+                    "groups": [
+                        {
+                            "group": "900",
+                            "description": "Creative, arts and entertainment activities",
+                            "classes": [
+                                {
+                                    "class": "9000",
+                                    "description": "Creative, arts and entertainment activities"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "91",
+                    "description": "Libraries, archives, museums and other cultural activities",
+                    "groups": [
+                        {
+                            "group": "910",
+                            "description": "Libraries, archives, museums and other cultural activities",
+                            "classes": [
+                                {
+                                    "class": "9101",
+                                    "description": "Library and archives activities"
+                                },
+                                {
+                                    "class": "9102",
+                                    "description": "Museums activities and operation of historical sites and buildings"
+                                },
+                                {
+                                    "class": "9103",
+                                    "description": "Botanical and zoological gardens and nature reserves activities"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "92",
+                    "description": "Gambling and betting activities",
+                    "groups": [
+                        {
+                            "group": "920",
+                            "description": "Gambling and betting activities",
+                            "classes": [
+                                {
+                                    "class": "9200",
+                                    "description": "Gambling and betting activities"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "93",
+                    "description": "Sports activities and amusement and recreation activities",
+                    "groups": [
+                        {
+                            "group": "931",
+                            "description": "Sports activities",
+                            "classes": [
+                                {
+                                    "class": "9311",
+                                    "description": "Operation of sports facilities"
+                                },
+                                {
+                                    "class": "9312",
+                                    "description": "Activities of sports clubs"
+                                },
+                                {
+                                    "class": "9319",
+                                    "description": "Other sports activities"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "932",
+                            "description": "Other amusement and recreation activities",
+                            "classes": [
+                                {
+                                    "class": "9321",
+                                    "description": "Activities of amusement parks and theme parks"
+                                },
+                                {
+                                    "class": "9329",
+                                    "description": "Other amusement and recreation activities n.e.c."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "s",
+            "description": "Other service activities",
+            "divisions": [
+                {
+                    "division": "94",
+                    "description": "Activities of membership organizations",
+                    "groups": [
+                        {
+                            "group": "941",
+                            "description": "Activities of business, employers and professional membership organizations",
+                            "classes": [
+                                {
+                                    "class": "9411",
+                                    "description": "Activities of business and employers membership organizations"
+                                },
+                                {
+                                    "class": "9412",
+                                    "description": "Activities of professional membership organizations"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "942",
+                            "description": "Activities of trade unions",
+                            "classes": [
+                                {
+                                    "class": "9420",
+                                    "description": "Activities of trade unions"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "949",
+                            "description": "Activities of other membership organizations",
+                            "classes": [
+                                {
+                                    "class": "9491",
+                                    "description": "Activities of religious organizations"
+                                },
+                                {
+                                    "class": "9492",
+                                    "description": "Activities of political organizations"
+                                },
+                                {
+                                    "class": "9499",
+                                    "description": "Activities of other membership organizations n.e.c."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "95",
+                    "description": "Repair of computers and personal and household goods",
+                    "groups": [
+                        {
+                            "group": "951",
+                            "description": "Repair of computers and communication equipment",
+                            "classes": [
+                                {
+                                    "class": "9511",
+                                    "description": "Repair of computers and peripheral equipment"
+                                },
+                                {
+                                    "class": "9512",
+                                    "description": "Repair of communication equipment"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "952",
+                            "description": "Repair of personal and household goods",
+                            "classes": [
+                                {
+                                    "class": "9521",
+                                    "description": "Repair of consumer electronics"
+                                },
+                                {
+                                    "class": "9522",
+                                    "description": "Repair of household appliances and home and garden equipment"
+                                },
+                                {
+                                    "class": "9523",
+                                    "description": "Repair of footwear and leather goods"
+                                },
+                                {
+                                    "class": "9524",
+                                    "description": "Repair of furniture and home furnishings"
+                                },
+                                {
+                                    "class": "9529",
+                                    "description": "Repair of other personal and household goods"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "96",
+                    "description": "Other personal service activities",
+                    "groups": [
+                        {
+                            "group": "960",
+                            "description": "Other personal service activities",
+                            "classes": [
+                                {
+                                    "class": "9601",
+                                    "description": "Washing and (dry-) cleaning of textile and fur products"
+                                },
+                                {
+                                    "class": "9602",
+                                    "description": "Hairdressing and other beauty treatment"
+                                },
+                                {
+                                    "class": "9603",
+                                    "description": "Funeral and related activities"
+                                },
+                                {
+                                    "class": "9609",
+                                    "description": "Other personal service activities n.e.c."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "t",
+            "description": "Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use",
+            "divisions": [
+                {
+                    "division": "97",
+                    "description": "Activities of households as employers of domestic personnel",
+                    "groups": [
+                        {
+                            "group": "970",
+                            "description": "Activities of households as employers of domestic personnel",
+                            "classes": [
+                                {
+                                    "class": "9700",
+                                    "description": "Activities of households as employers of domestic personnel"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "division": "98",
+                    "description": "Undifferentiated goods- and services-producing activities of private households for own use",
+                    "groups": [
+                        {
+                            "group": "981",
+                            "description": "Undifferentiated goods-producing activities of private households for own use",
+                            "classes": [
+                                {
+                                    "class": "9810",
+                                    "description": "Undifferentiated goods-producing activities of private households for own use"
+                                }
+                            ]
+                        },
+                        {
+                            "group": "982",
+                            "description": "Undifferentiated service-producing activities of private households for own use",
+                            "classes": [
+                                {
+                                    "class": "9820",
+                                    "description": "Undifferentiated service-producing activities of private households for own use"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "u",
+            "description": "Activities of extraterritorial organizations and bodies",
+            "divisions": [
+                {
+                    "division": "99",
+                    "description": "Activities of extraterritorial organizations and bodies",
+                    "groups": [
+                        {
+                            "group": "990",
+                            "description": "Activities of extraterritorial organizations and bodies",
+                            "classes": [
+                                {
+                                    "class": "9900",
+                                    "description": "Activities of extraterritorial organizations and bodies"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
