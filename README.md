@@ -20,6 +20,20 @@
 ![GitHub stars](https://img.shields.io/github/stars/anqorithm/isic4kit)
 ![GitHub forks](https://img.shields.io/github/forks/anqorithm/isic4kit)
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)
+![Downloads](https://img.shields.io/pypi/dm/isic4kit)
+![Maintenance](https://img.shields.io/maintenance/yes/2024)
+![Code Size](https://img.shields.io/github/languages/code-size/anqorithm/isic4kit)
+![Repository Size](https://img.shields.io/github/repo-size/anqorithm/isic4kit)
+![Top Language](https://img.shields.io/github/languages/top/anqorithm/isic4kit)
+![Languages](https://img.shields.io/github/languages/count/anqorithm/isic4kit)
+![Open Issues](https://img.shields.io/github/issues-raw/anqorithm/isic4kit)
+![Closed Issues](https://img.shields.io/github/issues-closed-raw/anqorithm/isic4kit)
+![Open PRs](https://img.shields.io/github/issues-pr-raw/anqorithm/isic4kit)
+![Closed PRs](https://img.shields.io/github/issues-pr-closed-raw/anqorithm/isic4kit)
+![Discussions](https://img.shields.io/github/discussions/anqorithm/isic4kit)
+![Package Status](https://img.shields.io/pypi/status/isic4kit)
+![Wheel](https://img.shields.io/pypi/wheel/isic4kit)
+![Format](https://img.shields.io/pypi/format/isic4kit)
 
 A Python SDK Library for working with the International Standard Industrial Classification of All Economic Activities (ISIC), Revision 4.
 
@@ -32,6 +46,8 @@ A Python SDK Library for working with the International Standard Industrial Clas
 - Well-documented
 - Tested and maintained
 - Lightweight and fast
+
+
 
 ## Data Structure
 
