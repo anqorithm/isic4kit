@@ -10,7 +10,6 @@
 ![PyPI](https://badge.fury.io/py/isic4kit.svg)
 ![PyPI - Downloads](https://img.shields.io/pypi/dm/isic4kit)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/isic4kit)
-![PyPI - License](https://img.shields.io/pypi/l/isic4kit)
 ![PyPI - Status](https://img.shields.io/pypi/status/isic4kit)
 ![Commits](https://img.shields.io/github/last-commit/anqorithm/isic4kit)
 ![Contributors](https://img.shields.io/github/contributors/anqorithm/isic4kit)
@@ -360,3 +359,54 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 [MIT License](LICENSE)
+
+## Development Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/anqorithm/isic4kit.git
+cd isic4kit
+
+# Install poetry (if not already installed)
+curl -sSL https://install.python-poetry.org | python3 -
+
+# Install dependencies
+poetry install
+
+# Activate virtual environment
+poetry shell
+```
+
+## Testing
+
+Run the test suite using pytest:
+
+```bash
+# Run all tests
+poetry run pytest
+
+# Run tests with coverage report
+poetry run pytest --cov=isic4kit tests/
+```
+
+## Bug Reports & Feature Requests
+
+Please use the [GitHub Issues](https://github.com/anqorithm/isic4kit/issues) page to report bugs or submit feature requests.
+
+## Code of Conduct
+
+This project follows the [Contributor Covenant](https://www.contributor-covenant.org/) Code of Conduct. By participating in this project, you agree to abide by its terms.
+
+## Citation
+
+If you use ISIC4Kit in your research, please cite it as follows:
+
+```bibtex
+@software{isic4kit2024,
+  author = {Abdullah Alqahtani},
+  title = {ISIC4Kit: A Python SDK for ISIC Revision 4},
+  year = {2024},
+  publisher = {GitHub},
+  url = {https://github.com/anqorithm/isic4kit}
+}
+```
