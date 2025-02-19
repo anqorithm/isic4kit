@@ -142,6 +142,157 @@ search_ar = isic_ar.search("تعدين")
 search_ar.print_tree()
 ```
 
+## Examples
+
+### English Examples
+
+```python
+from isic4kit import ISIC4Classifier
+
+# Initialize English classifier
+isic_en = ISIC4Classifier(language="en")
+
+# Example 1: Get section (Agriculture)
+section_en = isic_en.get_section("a")
+section_en.print_tree()
+```
+
+Output:
+```
+└── a: Agriculture, forestry and fishing
+    ├── 01: Crop and animal production, hunting and related service activities
+    │   ├── 011: Growing of non-perennial crops
+    │   │   ├── 0111: Growing of cereals (except rice), leguminous crops and oil seeds
+    │   │   ├── 0112: Growing of rice
+    │   │   ├── 0113: Growing of vegetables and melons, roots and tubers
+    │   │   ├── 0114: Growing of sugar cane
+    │   │   ├── 0115: Growing of tobacco
+    │   │   ├── 0116: Growing of fibre crops
+    │   │   └── 0119: Growing of other non-perennial crops
+    │   └── ...
+    ├── 02: Forestry and logging
+    └── 03: Fishing and aquaculture
+```
+
+```python
+# Example 2: Get division (Crop and animal production)
+division_en = isic_en.get_division("01")
+division_en.print_tree()
+```
+
+Output:
+```
+└── 01: Crop and animal production, hunting and related service activities
+    ├── 011: Growing of non-perennial crops
+    │   ├── 0111: Growing of cereals (except rice), leguminous crops and oil seeds
+    │   ├── 0112: Growing of rice
+    │   ├── 0113: Growing of vegetables and melons, roots and tubers
+    │   ├── 0114: Growing of sugar cane
+    │   ├── 0115: Growing of tobacco
+    │   ├── 0116: Growing of fibre crops
+    │   └── 0119: Growing of other non-perennial crops
+    └── ...
+```
+
+```python
+# Example 3: Get group (Growing of non-perennial crops)
+group_en = isic_en.get_group("011")
+group_en.print_tree()
+```
+
+Output:
+```
+└── 011: Growing of non-perennial crops
+    ├── 0111: Growing of cereals (except rice), leguminous crops and oil seeds
+    ├── 0112: Growing of rice
+    ├── 0113: Growing of vegetables and melons, roots and tubers
+    ├── 0114: Growing of sugar cane
+    ├── 0115: Growing of tobacco
+    ├── 0116: Growing of fibre crops
+    └── 0119: Growing of other non-perennial crops
+```
+
+```python
+# Example 4: Get class (Growing of cereals)
+class_en = isic_en.get_class("0111")
+class_en.print_tree()
+```
+
+Output:
+```
+└── 0111: Growing of cereals (except rice), leguminous crops and oil seeds
+```
+
+```python
+# Example 5: Search in English
+search_en = isic_en.search("mining")
+search_en.print_tree()
+```
+
+Output:
+```
+├── 05: Mining of coal and lignite
+│   ├── 051: Mining of hard coal
+│   │   ├── 0510: Mining of hard coal (anthracite)
+│   ├── 052: Mining of lignite
+│   │   ├── 0520: Mining of lignite
+├── 07: Mining of metal ores
+│   ├── 071: Mining of iron ores
+│   │   ├── 0710: Mining of iron ores
+│   ├── 072: Mining of non-ferrous metal ores
+│   │   ├── 0721: Mining of uranium and thorium ores
+│   │   ├── 0729: Mining of other non-ferrous metal ores
+├── 08: Other mining and quarrying
+│   ├── 089: Mining and quarrying n.e.c.
+│   │   ├── 0891: Mining of chemical and fertilizer minerals
+│   │   ├── 0899: Other mining and quarrying n.e.c.
+├── 09: Mining support service activities
+│   ├── 099: Support activities for other mining and quarrying
+│   │   ├── 0990: Support activities for other mining and quarrying
+│   │   ├── 2824: Manufacture of machinery for mining, quarrying and construction
+```
+
+### Arabic Examples
+
+```python
+# Initialize Arabic classifier
+isic_ar = ISIC4Classifier(language="ar")
+
+# Example 1: Get section (الزراعة)
+section_ar = isic_ar.get_section("a")
+section_ar.print_tree()
+```
+
+Output:
+```
+└── a: الزراعة والحراجة وصيد الأسماك
+    ├── 01: أنشطة زراعة المحاصيل والإنتاج الحيواني والصيد والخدمات المتصلة
+    │   ├── 011: زراعة المحاصيل غير الدائمة
+    │   │   ├── 0111: زراعة الحبوب باستثناء الأرز( والمحاصيل البقولية والبذور الزيتية)
+    │   │   └── ...
+    └── ...
+```
+
+```python
+# Example 5: Search in Arabic
+search_ar = isic_ar.search("تعدين")
+search_ar.print_tree()
+```
+
+Output:
+```
+├── 05: تعدين الفحم والليغنيت
+│   ├── 051: تعدين الفحم القاسي (الأنفراثيت)
+│   │   ├── 0510: تعدين الفحم القاسي (الأنفراثيت)
+│   ├── 052: تعدين الليغنيت
+│   │   ├── 0520: تعدين الليغنيت
+├── 07: تعدين ركازات الفلزات
+│   ├── 071: تعدين ركازات الحديد
+│   │   ├── 0710: تعدين ركازات الحديد
+│   └── ...
+└── ...
+```
+
 ## Supported Languages
 
 - English (en)
@@ -182,8 +333,6 @@ sections = [
     # ...
 ]
 ```
-
-
 
 ## Contributing
 
