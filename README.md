@@ -112,7 +112,7 @@ The following is a demo of the SDK library in action.
 [![asciicast](https://asciinema.org/a/EIWus3SvaHt71GnjSN0g4KH0u.svg)](https://asciinema.org/a/EIWus3SvaHt71GnjSN0g4KH0u)
 
 
-## Diagram
+## Technical Diagrams
 
 ### ISIC4 Hierarchy Structure
 ```mermaid
@@ -235,54 +235,6 @@ flowchart TB
     ISICGroup --> Tree
     ISICClass --> Tree
 ```
-
-### ISIC4Kit Component Architecture
-
-```mermaid
-flowchart TB
-    subgraph Main
-        ISIC4Classifier
-    end
-
-    subgraph Base Classes
-        BaseISIC4
-        ISICSearchMixin
-        ISICLoaderMixin
-    end
-
-    subgraph Models
-        ISICSection
-        ISICDivision
-        ISICGroup
-        ISICClass
-        ISICHierarchy
-        ISICSearchResult
-        ISICSearchResults
-    end
-
-    subgraph Utils
-        Tree
-    end
-
-    ISIC4Classifier --> BaseISIC4
-    ISIC4Classifier --> ISICSearchMixin
-    ISIC4Classifier --> ISICLoaderMixin
-    
-    BaseISIC4 --> ISICSection
-    BaseISIC4 --> ISICDivision
-    BaseISIC4 --> ISICGroup
-    BaseISIC4 --> ISICClass
-    
-    ISICSearchMixin --> ISICSearchResult
-    ISICSearchMixin --> ISICSearchResults
-    ISICSearchMixin --> ISICHierarchy
-    
-    ISICSection --> Tree
-    ISICDivision --> Tree
-    ISICGroup --> Tree
-    ISICClass --> Tree
-```
-
 
 ## Installation
 
