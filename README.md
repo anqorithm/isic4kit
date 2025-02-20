@@ -111,6 +111,179 @@ The following is a demo of the SDK library in action.
 
 [![asciicast](https://asciinema.org/a/EIWus3SvaHt71GnjSN0g4KH0u.svg)](https://asciinema.org/a/EIWus3SvaHt71GnjSN0g4KH0u)
 
+
+## Diagram
+
+### ISIC4 Hierarchy Structure
+```mermaid
+classDiagram
+    ISICSection "1" --> "*" ISICDivision : contains
+    ISICDivision "1" --> "*" ISICGroup : contains
+    ISICGroup "1" --> "*" ISICClass : contains
+
+    class ISICSection {
+        +str code
+        +str description
+        +List[ISICDivision] divisions
+        +print_tree()
+    }
+    
+    class ISICDivision {
+        +str code
+        +str description
+        +List[ISICGroup] groups
+        +print_tree()
+    }
+    
+    class ISICGroup {
+        +str code
+        +str description
+        +List[ISICClass] classes
+        +print_tree()
+    }
+    
+    class ISICClass {
+        +str code
+        +str description
+        +print_tree()
+    }
+```
+
+### ISIC4Kit Search Sequence
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant ISIC4Classifier
+    participant ISICSearchMixin
+    participant Models
+    participant Tree
+
+    User->>ISIC4Classifier: search(query)
+    activate ISIC4Classifier
+    
+    ISIC4Classifier->>ISICSearchMixin: search(query)
+    activate ISICSearchMixin
+    
+    ISICSearchMixin->>ISICSearchMixin: process query
+    ISICSearchMixin->>Models: create ISICSearchResult
+    activate Models
+    Models-->>ISICSearchMixin: return result
+    deactivate Models
+    
+    ISICSearchMixin->>Models: create ISICSearchResults
+    activate Models
+    Models-->>ISICSearchMixin: return results
+    deactivate Models
+    
+    ISICSearchMixin-->>ISIC4Classifier: return results
+    deactivate ISICSearchMixin
+    
+    ISIC4Classifier->>Tree: print_tree()
+    activate Tree
+    Tree-->>ISIC4Classifier: display hierarchy
+    deactivate Tree
+    
+    ISIC4Classifier-->>User: return formatted results
+    deactivate ISIC4Classifier
+```
+
+
+### ISIC4Kit Component Architecture
+
+```mermaid
+flowchart TB
+    subgraph Main
+        ISIC4Classifier
+    end
+
+    subgraph Base Classes
+        BaseISIC4
+        ISICSearchMixin
+        ISICLoaderMixin
+    end
+
+    subgraph Models
+        ISICSection
+        ISICDivision
+        ISICGroup
+        ISICClass
+        ISICHierarchy
+        ISICSearchResult
+        ISICSearchResults
+    end
+
+    subgraph Utils
+        Tree
+    end
+
+    ISIC4Classifier --> BaseISIC4
+    ISIC4Classifier --> ISICSearchMixin
+    ISIC4Classifier --> ISICLoaderMixin
+    
+    BaseISIC4 --> ISICSection
+    BaseISIC4 --> ISICDivision
+    BaseISIC4 --> ISICGroup
+    BaseISIC4 --> ISICClass
+    
+    ISICSearchMixin --> ISICSearchResult
+    ISICSearchMixin --> ISICSearchResults
+    ISICSearchMixin --> ISICHierarchy
+    
+    ISICSection --> Tree
+    ISICDivision --> Tree
+    ISICGroup --> Tree
+    ISICClass --> Tree
+```
+
+### ISIC4Kit Component Architecture
+
+```mermaid
+flowchart TB
+    subgraph Main
+        ISIC4Classifier
+    end
+
+    subgraph Base Classes
+        BaseISIC4
+        ISICSearchMixin
+        ISICLoaderMixin
+    end
+
+    subgraph Models
+        ISICSection
+        ISICDivision
+        ISICGroup
+        ISICClass
+        ISICHierarchy
+        ISICSearchResult
+        ISICSearchResults
+    end
+
+    subgraph Utils
+        Tree
+    end
+
+    ISIC4Classifier --> BaseISIC4
+    ISIC4Classifier --> ISICSearchMixin
+    ISIC4Classifier --> ISICLoaderMixin
+    
+    BaseISIC4 --> ISICSection
+    BaseISIC4 --> ISICDivision
+    BaseISIC4 --> ISICGroup
+    BaseISIC4 --> ISICClass
+    
+    ISICSearchMixin --> ISICSearchResult
+    ISICSearchMixin --> ISICSearchResults
+    ISICSearchMixin --> ISICHierarchy
+    
+    ISICSection --> Tree
+    ISICDivision --> Tree
+    ISICGroup --> Tree
+    ISICClass --> Tree
+```
+
+
 ## Installation
 
 ### Poetry (recommended)
