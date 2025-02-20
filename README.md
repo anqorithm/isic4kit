@@ -299,6 +299,8 @@ results = isic_en.search("mining")
 results.print_tree()
 ```
 
+[![asciicast](https://asciinema.org/a/C0BHgHsunbUVblrbbXXPHHw9O.svg)](https://asciinema.org/a/C0BHgHsunbUVblrbbXXPHHw9O)
+
 ### Multi-language Support
 
 The classifier supports multiple languages. Here's an example in Arabic:
@@ -464,6 +466,8 @@ Output:
 search_ar = isic_ar.search("تعدين")
 search_ar.print_tree()
 ```
+
+[![asciicast](https://asciinema.org/a/ciiUfT41khDLbqZr7aDhVfNCQ.svg)](https://asciinema.org/a/ciiUfT41khDLbqZr7aDhVfNCQ)
 
 Output:
 ```
