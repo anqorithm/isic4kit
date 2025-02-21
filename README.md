@@ -266,16 +266,6 @@ isic_en = ISIC4Classifier(language="en")
 
 # Example 1: Get section (Agriculture)
 section = isic_en.get_section("a")
-# Access divisions directly
-for division in section.divisions:
-    print(division.code, division.description)
-    # Access groups
-    for group in division.groups:
-        print(group.code, group.description)
-        # Access classes
-        for class_ in group.classes:
-            print(class_.code, class_.description)
-# Or use the tree visualization
 section.print_tree()
 
 # Example 2: Get division (Crop and animal production)
